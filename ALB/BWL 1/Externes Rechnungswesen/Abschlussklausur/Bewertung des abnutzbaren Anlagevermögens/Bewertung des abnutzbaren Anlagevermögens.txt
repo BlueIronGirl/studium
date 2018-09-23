@@ -1,0 +1,38 @@
+Bürosoftware Typ "Easy Fibu": 120 (+24 USt) bar am 01.03.
+Laserdrucker "Expressprint Color+" für 400 (+80 USt) per Bankscheck am 13.05.
+Kombilieferwagen Typ "Lastwa" für 17.000 (+3400 USt) per Bankscheck am 20.08. Nutzungsdauer: 6 Jahre
+
+1. Buchungssatz für den Kauf
+Bürosoftware
+Sollkonto     			 Betrag        Habenkonto
+Büroaufwand				 120		   
+Vorsteuer				 24
+						 144		   Kasse
+						 
+Laserdrucker
+Sollkonto     			 Betrag        Habenkonto
+BGA						 400		   
+Vorsteuer				 80
+						 480		   Bank
+						 
+Lieferwagen
+Sollkonto     			 Betrag        Habenkonto
+Fuhrpark  			     17.000		   
+Vorsteuer				 3.400
+						 20.400		   Bank		
+
+2. Wert zum Bilanzstichtag 31.12.					
+Büroaufwand: geringwertiges Wirtschaftsgut (beweglich, abnutzbar, selbstständig nutzbar, AK kleiner <= netto 250 €, in einem besonderen Verzeichnis), daher Abschreibung in voller Höhe = 120
+
+Laserdrucker: lineare Abschreibung 3 Jahre
+Abschreibung 2009 p.r.t.: 400 / 3 / 12 * 8 (Mai) = 89
+Restwert 31.12.: 400 - 89 = 311
+
+Lieferwagen: lineare Abschreibung 6 Jahre
+Abschreibung 2009 p.r.t.: 17.000 / 6 / 12 * 5 (August) = 1181
+Restwert 31.12.: 17.000 - 1181 = 15.819 
+
+3. Abschreibung buchen	 
+Sollkonto     			 Betrag        Habenkonto
+Abschreibung			 1180	       BGA
+Abschreibung			 89			   BGA

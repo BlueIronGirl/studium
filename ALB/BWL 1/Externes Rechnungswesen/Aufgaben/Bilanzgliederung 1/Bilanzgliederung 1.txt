@@ -1,0 +1,8 @@
+B. Umlaufvermögen (Aktivseite)
+Vorräte: Vermögenspositionen, die im Rahmen der Fertigung zu einem Produkt werden. Es kann auch Software enthalten sein, wenn sie zum Verkauf bestimmt ist, und geleistete Anzahlungen.
+Forderungen: Forderungen aus Lieferungen und Leistungen, die dem Kunden gegenüber erbracht wurden und Sonstige Forderungen.
+Wertpapiere: Aktien, Anleihen, Obligationen, die zur kurzfristigen Zinsanlage erworben werden, allerdings keine Beteiligungen.
+Kassenbestand, Bundesbankguthaben, Guthaben bei Kreditinstituten und Schecks: Mitel, die jederzeit zur Verfüung stehen und hochliquide sind.
+
+D. Rechungsaabgrenzungsposten (Passivseite)
+Entstehen durch den Erhalt von Zahlungen, für die das Unternehmen noch keine Leistung erbracht hat (Zinseinnahmen, Diskonteinnahmen, Miete).

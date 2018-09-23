@@ -1,0 +1,38 @@
+Vorsteuer Soll = 13.260 Haben = 560
+Umsatzsteuer 20 % Soll = 1.200 Haben = 47.382
+
+1. Wie hoch ist der dem Finanzamt zu erklärende Betrag
+Soll	               VoSt                Haben
+13.260						   			   560
+										   12.700 (Saldo)
+13.260									   13.260		
+
+Soll	               USt                 Haben
+1.200 									   47.382 
+46.182 (Saldo)										   
+47.382 									   47.382 			
+
+Soll	      USt-Verrechnungskonto        Haben
+12.700 (VoSt) 							   46.182 (USt)
+33.482 (Saldo)										   
+46.182 									   46.182		
+
+Soll	               SBK                 Haben
+										   33.482 (USt-Verrechnungskonto)
+
+2. Wie lautet der Buchungssatz des Zahlungsvorgangs
+Sollkonto     			 Betrag        Habenkonto
+USt-Verrechnungskonto	 33.482		   SBK
+USt-Verrechnungskonto	 33.482		   Bank
+
+3. Wie hoch ist der Aufwand
+Abschluss auf dem USt-Kto
+Sollkonto     			 Betrag        Habenkonto
+USt-Verrechnungskonto	 12.700		   Vorsteuerkonto
+USt-Konto				 46.182		   USt-Verrechnungskonto
+USt-Verrechnungskonto	 33.482		   SBK
+
+Bilanz (sonstige Verbindlichkeit)
+Sollkonto     			 Betrag        Habenkonto
+Sonstige Verbindlichkeit 33.482		   Bank
+

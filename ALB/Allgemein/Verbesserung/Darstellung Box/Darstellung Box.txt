@@ -1,0 +1,1 @@
+Der Text "Randbedingungen/Einschränkungen" steht etwas über dessen Box hinaus (Darstellung Box.png).

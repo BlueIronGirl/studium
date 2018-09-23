@@ -1,0 +1,37 @@
+Arbeitszeit (Techniker): 6 Stunden, Arbeitsstunde = 35 €
+Material Lieferkosten: 600 (+ 120 USt)
+Maschine: 23.000 (+ 4600 USt) -> enthält 500 € Eingangsfracht
+Inbetriebnahme: 1.04.09 
+Vorraussichtliche Nutzungsdauer: 10 Jahre
+Lineare Abschreibung
+
+1. Aktivierungsbetrag
+Material 			600 
+Eigenleistung 		210 (6 * 35)
+Maschine (+Fracht)	23.000 	
+=> Summe			23.810
+
+2. Einsatz der hauseigenen Techniker und die Entnahme des Materials
+Sollkonto     			 Betrag        Habenkonto
+BGA						 600		   Material
+BGA						 210		   Eigenleistung
+
+3. Ermitteln Sie den Bilanzansatz zum 31.12.2010
+23.810 / 10 (Nutzungsjahre) / 12 * 9 (p.r.t. April) = 1.786 (Abschreibung für das Jahr 2009 ab 1.4.)
+23.810 - 1.786 = 22.024 (Wert zum 31.12.2009)
+23.810 / 10 = 2.381 (Abschreibung für das Jahr 2010)
+22.024 - 2.381 = 19.643 (Wert zum 31.12.2010)
+
+4. Nennen Sie die genaue Rechtsgrundlage des Handelsrecht und des Steuerrechts. Geben Sie bitten den Paragrafen und das Gesetz an!
+$ 253 HG Zugangs- und Folgebewertung
+$ 6 EStG Bewertung
+$ 7 EStG Absetzung für Abnutzung oder Substanzverringerung  
+
+5. Nehmen Sie die Abschreibungsbuchung zum Ende des Wirtschaftsjahres 09 vor
+Sollkonto     			 Betrag        Habenkonto
+Abschreibung			 1.786		   BGA
+
+6. Nehmen Sie an, das Unternehmen macht Gewinn. Wie könnte die Steuerlast vermindert werden?
+Durch Erhöhung der Nutzungsdauer der Spritzgussmaschine kann die Steuerlast vermindert werden, da so die jährlichen Abschreibungsbeträge der Maschine reduziert werden.
+
+

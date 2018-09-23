@@ -1,0 +1,35 @@
+Arbeitszeit (Techniker): 8 Stunden, Arbeitsstunde = 35 €
+Material Lieferkosten: 1000 (+ 200 USt)
+Maschine: 22.530 (+ 4506 USt) -> enthält 500 € Eingangsfracht
+Inbetriebnahme: 1.07.06
+Vorraussichtliche Nutzungsdauer: 3 Jahre
+Lineare Abschreibung
+
+1. Aktivierungsbetrag
+Material 			1000 
+Eigenleistung 		280 (8 * 35)
+Maschine (+Fracht)	22.530 	
+=> Summe			23.810
+
+2. Einsatz der hauseigenen Techniker und die Anlieferung des Materials
+Sollkonto     			 Betrag        Habenkonto
+BGA						 1000		   Material
+BGA						 280		   Eigenleistung
+
+3. Ermitteln Sie den Bilanzansatz zum 31.12.2006
+23.810 / 3 (Nutzungsjahre) / 12 * 6 (p.r.t.) = 3.968 (Abschreibung für das Jahr 2006 ab 1.7.)
+23.810 - 3.968 = 19.842 (Wert zum 31.12.2006)
+
+4. Nennen Sie die genaue Rechtsgrundlage des Handelsrecht und des Steuerrechts. Geben Sie bitten den Paragrafen und das Gesetz an!
+$ 253 HG Zugangs- und Folgebewertung
+$ 6 EStG Bewertung
+$ 7 EStG Absetzung für Abnutzung oder Substanzverringerung  
+
+5. Nehmen Sie die Abschreibungsbuchung zum Ende des Wirtschaftsjahres vor
+Sollkonto     			 Betrag        Habenkonto
+Abschreibung			 3.968		   BGA
+
+6. Nehmen Sie an, das Unternehmen macht Verlust. Wie könnte das Ergebnis positiv beeinflusst werden?
+Durch Erhöhung der Nutzungsdauer des Netzwerks kann die Steuerlast vermindert werden, da so die jährlichen Abschreibungsbeträge des Netzwerks reduziert werden.
+
+

@@ -1,0 +1,17 @@
+Löhne und Gehälter: 158.000
+Lohnsteuer: 37.000
+Sozialversicherung Arbeitnehmer: 33.180
+Sozialversicherung Arbeitgeber: 31.600
+
+Buchungen des laufenden Monats
+Sollkonto     			 Betrag        Habenkonto
+Gehalt					 158.000	   Gehaltsverrechnung
+Gehaltsverrechnung		 37.000		   Verb. Finanzamt
+Gehaltsverrechnung       33.180		   Verb. Soziale Sicherheit
+Auf. Soziale Sicherheit  31.600		   Verb. Soziale Sicherheit 
+Gehaltsverrechnung		 87.820		   Bank
+Verb. Soziale Sicherheit 64.780		   Bank (bis zum drittletzten Bankarbeitstag eines Monats)
+
+Buchungen des Folgemonats (für März)
+Sollkonto     			 Betrag        Habenkonto
+Verb. Finanzbehörde		 37.000	       Bank

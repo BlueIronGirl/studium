@@ -1,0 +1,537 @@
+\documentclass[12pt,twoside]{report}   % oder {book} ohne twoside
+\usepackage[german,ngerman]{babel}     % korrekte Trennung allgemein
+\usepackage{ucs}                       % korrekte Behandlung von äöüÄÖÜß
+\usepackage[utf8x]{inputenc}           % korrekte Behandlung von äöüÄÖÜß
+\usepackage[T1]{fontenc}               % korrekte Trennung bei ä,ö,ü,...
+\usepackage{helvet,courier,mathptmx}   % korekte Fonts für pdf
+\usepackage{textpos,xcolor,rawfonts,latexsym,graphicx,epsf,verbatim} 
+\usepackage[dvipdfm,bookmarksopen,backref,hyperindex,colorlinks,linkcolor=mycolorc,pdfauthor={Prof. Dr. Burkhard Lenze},pdfsubject={Vorschlag Bachelor-/Master-/Arbeit-Lay-Out},pdftitle={Implementierung und Anwendung neuronaler Netze unter Java},pdfkeywords={Neuronen, neuronale Netze, Java}]{hyperref} % entweder dvips oder dvipdfm
+
+\pagestyle{myheadings}
+\textheight23cm
+\textwidth14cm
+\voffset0cm
+\topskip0cm
+\topmargin-1.2cm
+\headheight1.0cm
+\headsep1.5cm
+\oddsidemargin1.0cm
+\evensidemargin1.0cm
+\renewcommand{\baselinestretch}{1.4} 
+
+% ***************************** EIGENE MACROS ******************************** 
+\newcommand{\mytoday}{13.\ März 2007} 
+\newcommand {\cpr}{Ferdi Student, \today}
+\newtheorem{theo}{Satz}[section]
+\newtheorem{defi}{Definition}[section]
+\newtheorem{prog}{Programm}[section]
+\def\eop{{ \vrule height7pt width7pt depth0pt}\par\bigskip}
+\def\meop{\hfill {\vrule height7pt width7pt depth0pt}}
+\newcommand{\RR}{\mathbf{R}}
+\newcommand{\NN}{\mathbf{N}}
+\newcommand{\QQ}{\mathbf{Q}}
+\newcommand{\ZZ}{\mathbf{Z}}
+\newcommand{\CC}{\mathbf{C}}
+\def\a{{\vec a}}
+\def\b{{\vec b}}
+\def\c{{\vec c}}
+\def\d{{\vec d}}
+\def\e{{\vec e}}
+\def\h{{\vec h}}
+\def\i{{\vec i}}
+\def\x{{\vec x}}
+\def\t{{\vec t}}
+\def\w{{\vec w}}
+\def\0{{\vec 0}}
+\def\J{{\vec J}}
+\def\j{{\vec j}}
+
+\definecolor{mycolorc}{cmyk}{0,0.5,1,0}
+\newfont{\smc}{cmss12 scaled 2000}
+\newcommand{\fhdohbig}%
+  {{\begin{color}{mycolorc} \smc\noindent Fachhochschule \end{color}
+      \hfill \smc Fachbereich \\[0.4cm] 
+    \begin{color}{mycolorc} \smc Dortmund \end{color} \hfill \smc Informatik}}
+
+\definecolor{fh_orange}{rgb}{0.953,0.201,0}
+\definecolor{fh_grau}{rgb}{0.76,0.75,0.76}
+\sloppy
+
+\begin{document}
+
+\begin{titlepage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -*- Mode: Latex -*- %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 
+%% pa_ba_titelblatt.tex 
+%% 
+%% Copyright (C) 2008 Alexander Sprack / Claudia Holz
+%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \begin{textblock}{6.5}(-1.5,-3)
+    \begin{color}{fh_grau}
+      \rule{6.8cm}{33cm}    
+    \end{color}
+  \end{textblock}
+  \begin{textblock}{6.5}(-1.2,-0.7)
+%  \includegraphics[width=3.8cm]{my-fh-logo}% selbst basteln, falls gewünscht! 
+                                            % Das offizielle Logo ist nicht
+                                            % gestattet!! Bitte BEACHTEN!!!
+  \end{textblock}
+  \begin{textblock}{6.5}(-1.3,1)
+    {\large \textsf{Bachelor-/Masterarbeit}}            
+  \end{textblock}
+
+  \begin{textblock}{7}(4.1,2)
+    {\noindent \huge 
+      \textsf{\textbf{hier der Titel der Arbeit\\[0.3cm] 
+          \Large  Zweizeiliger Untertitel\\[0.05cm]
+          sofern vorhanden}} }
+  \end{textblock}
+
+
+  \begin{textblock}{6}(4.1,6.5)\noindent
+    \textsf{An der Fachhochschule Dortmund\\
+    im Fachbereich Informatik\\
+    Studiengang Informatik \\
+    erstellte Bachelor-/Masterarbeit \\
+    zur Erlangung des akademischen Grades\\
+    Bachelor/Master of Science}
+  \end{textblock}
+
+  \begin{textblock}{6.5}(-0.9,10.8)
+    \noindent
+    \textsf{von \\
+      Ferdi Student \\
+      geb.\ am xx.xx.xxxx  \\
+      Matr.-Nr. xxxx xxx\\[0.7cm]
+      Betreuer: Prof.\ Dr.\ Burkhard Lenze \\[0.5cm]
+      Dortmund, \today}    
+  \end{textblock}
+
+\end{titlepage}
+
+\newpage
+
+\setcounter{page}{1}
+\pagenumbering{roman}
+{\baselineskip=15pt \tableofcontents}
+{\baselineskip=22pt \listoffigures}
+
+\newpage
+
+\chapter*{Überblick}
+\section*{Kurzfassung}
+Hier sollte eine halbseitige Kurzfassung der Arbeit stehen.
+\vfill\vfill\vfill\vfill\vfill\vfill
+\section*{Abstract}
+Here, an abstract written in English should appear.
+\vfill\vfill\vfill\vfill\vfill\vfill
+\pagebreak
+
+\chapter{Einleitung}
+\label{chap1}
+\markboth{\ \ \ \  {\tiny \cpr} \hfill Kap.\ \ref{chap1} \ \ Einleitung}{Kap.\ \ref{chap1} \ \ Einleitung \hfill {\tiny \cpr} \ \ \ \ }
+\pagenumbering{arabic}
+
+\section{Motivation}
+{\bf WICHTIGER HINWEIS:} 
+Alles in diesem {\bf Entwurf} den Aspekt
+{\bf wissenschaftliches Arbeiten} bei der Anfertigung einer
+Bachelor-/Master-Arbeit 
+Betreffende ist absolut {\bf verbindlich} und muss uneingeschränkt
+berücksichtigt werden! \\[0.1cm]
+Alles in diesem {\bf Entwurf} das 
+{\bf Layout} einer Bachelor-/Master-Arbeit Betreffende gibt die 
+{\bf persönliche} Meinung des 
+Verfassers wieder! Jede Studentin und jeder Student mag eigene Vorstellungen
+entwickeln! Hier findet man eventuell erste hilfreiche Anhaltspunkte. \\[0.1cm]
+Nun zum Überblick! Was sollte er u.\ a.\ enthalten:
+\begin{itemize}
+\itemsep -6pt
+\item Erläuterung der Problemstellung 
+\item Motivation für die Beschäftigung mit dem Problem
+\item Hinweis auf eventuell schon vorhandene Entwicklungen 
+\item Abgrenzung der eigenen Arbeit von eventuell schon vorhandenen
+      Entwicklungen 
+\item kurzer Abriss über den Inhalt der Arbeit
+\end{itemize}
+
+\section{Notation}
+In diesem Abschnitt wird die in dieser Arbeit verwendete Notation 
+vorgestellt und erläutert, falls sie relativ aufwendig ist.
+
+\section{Grundlagen}
+Wohlbekannte, aber für diese Arbeit besonders wichtige Resultate finden
+sich hier, wenn sie denn benötigt werden. Wichtig in diesem und in allen
+folgenden Kapiteln: {\bf Zitate angeben!!!} Wann immer etwas aus einem Buch,
+einer Veröffentlichung, einem Vortrag oder einer www-Page entnommen ist, 
+{\bf muss} dies durch eine entsprechende Angabe der Quelle im Text (z.B.\ vgl.\
+\cite{len2}, S.\ 23ff.) sowie einer Angabe der vollständigen Quelle im
+Literaturverzeichnis kenntlich gemacht werden! Es ist absolut unzulässig,
+längere Passagen {\bf wörtlich} oder {\bf sinngemäß und nahezu wörtlich} aus
+einem anderen Dokument zu übernehmen, ohne dies präzise zu zitieren,
+auch wenn man die Referenz pauschal im Literaturverzeichnis angibt
+(Plagiat, nicht bestanden, keine Wiederholung möglich). Im Rahmen der 
+Erklärung am Ende der Bachelor-/Master-Arbeit verpflichtet sich die
+Studentin bzw.\ der 
+Student, dieser, im Rahmen wissenschaftlicher Arbeit fundamentalen Pflicht,
+alle Quellen angegeben zu haben und Zitate kenntlich gemacht zu haben,
+nachgekommen zu sein. \\
+Überwiegt bei einer Arbeit der Anteil korrekt
+zitierter, aber mehr oder weniger wörtlich übernommener Passagen, ist sie zwar
+im engeren Sinne kein Plagiat, allerdings auch kein Nachweis einer gemäß
+Prüfungsordnung zu 
+erbringenden selbstständigen wissenschaftlichen und fachpraktischen Leistung
+(nicht bestanden, Wiederholung möglich). 
+
+\chapter{Theorie neuronaler Netze}
+\label{chap2}
+\markboth{\ \ \ \  {\tiny \cpr} \hfill Kap.\ \ref{chap2} \ \ Theorie neuronaler Netze}{Kap.\ \ref{chap2} \ \ Theorie neuronaler Netze \hfill {\tiny \cpr} \ \ \ \ }
+\section{Die formalen Neuronen}
+In diesen Abschnitten geht es um die mathematischen Grundlagen der zu
+behandelnden Problemstellung. Hier können Definitionen und Sätze
+auftauchen, wobei die Sätze teils bewiesen werden sollten (falls einfach
+und für das weitere Verständnis wesentlich) oder ihre Beweise sauber
+zitiert werden. Beispiele: \\
+\begin{defi}
+{\rm (Formales Neuron)} \\
+Ein formales Neuron ist eine Funktion
+$\kappa: \RR^n \to \RR^m$, die erzeugt wird durch die Verkettung 
+einer sogenannten {\sl Transferfunktion} 
+$\sigma: \RR \to \RR$ mit einer sogenannten
+{\sl Aktivierungsfunktion} $A: \RR^n \to \RR$:
+\begin{equation}
+\begin{array}{rl}
+\kappa: \ \ \ & \RR^n \to \RR^m \ , \\
+        & \ \ \ \vec x \mapsto 
+        \big( \sigma(A(\vec x)), \sigma(A(\vec x)), \ \ldots \ ,
+                               \sigma(A(\vec x)) \big) \ . 
+\end{array} 
+\end{equation}			       
+\end{defi}
+
+\begin{theo}
+{\rm (Dichtheitssatz für hyperbolische Aktivierung)} \\
+Es sei $f: \RR^n \to \RR$ stetig, $K \subset \RR^n$ kompakt
+und $\sigma: \RR \to \RR$ eine stetige Sigmoidalfunktion.
+Dann gibt es für alle $\epsilon > 0$ Parameter
+\begin{equation}
+\begin{array}{rl}
+& q \in \NN, \\
+& d_{kp} \in \RR, \ \ 1 \le k \le n , \ 1 \le p \le q , \\
+& \rho_p \in \RR, \ \ \ 1 \le p \le q , \\
+& g_p \in \RR, \ \ \ 1 \le p \le q , 
+\end{array}\end{equation}
+so dass für alle $\x \in K$ gilt
+\begin{equation}
+\left| f(\x ) - \sum_{p=1}^q g_p \sigma 
+\left( \rho_p \prod\limits_{k=1}^n (x_k-d_{kp}) \right) \right| \ < \ \epsilon .
+\end{equation}
+Definiert man nun
+\begin{equation}
+\sigma_{\pi}(\x ) := \sigma(\prod_{k=1}^n x_k) \ ,
+\end{equation}
+so lässt sich dies auch kurz schreiben als
+\begin{equation}
+H_{\sigma}  :=	\overline{span} \; \left\{ \sigma_{\pi}(\rho ( \x - \d \, )) \; : \;
+\d \in \RR^n, \; \rho \in \RR \right\}	=  C(\RR^n ) \ ,
+\end{equation}
+wobei $\overline{span}$ den Abschluss bezüglich der Topologie der
+gleichmäßigen Konvergenz auf kompakten Mengen bezeichnet.
+\end{theo}
+
+\noindent
+{\bf Beweis:} Vergleiche die Originalarbeiten \cite{len1,pin} oder
+\cite{len3}, S.\ 163ff.
+\eop
+
+\noindent
+Auch Zeichnungen (vgl.\ Abbildung \ref{bild1}) können sinnvoll sein und
+eingebunden werden: 
+
+\begin{figure}[htb]
+\centerline{\includegraphics[width=8cm]{/home/lenze/tex/feu/feubild1.ps}}
+\caption{\label{bild1}Reales Neuron (Schematische Skizze)}
+\end{figure}
+
+\section{Die Topologie neuronaler Strukturen}
+
+\section{Der Ausführ-Modus}
+
+\section{Der Lern-Modus}
+
+\chapter{Implementierung neuronaler Netze}
+\label{chap3}
+\markboth{\ \ \ \  {\tiny \cpr} \hfill Kap.\ \ref{chap3} \ \ Implementierung neuronaler Netze}{Kap.\ \ref{chap3} \ \ Implementierung neuronaler Netze \hfill {\tiny \cpr} \ \ \ \ }
+\section{Die Wahl der Programmiersprache: Java}
+Kurze Begründung für die Auswahl der Programmiersprache. Mit welchem
+Entwicklungstool wurde gearbeitet und warum? Oder wurde direkt mit dem JDK 
+gearbeitet? Wenn ja, warum? {\bf Keine} detaillierte
+Einführung in Java; das ist inzwischen Standard. Allerdings: Neue und
+spezielle Bibliotheken, Packages oder Klassen, die benutzt werden, müssen
+begründet und erläutert werden.
+
+\section{Details zum Entwurf und zur Entwicklung}
+Klassische Vorgehensweise bei dem Entwurf und der Entwicklung eines
+Anwendungsprogramms (OOA, OOD, OOP, etc.). 
+Insbesondere sollten hier (oder -- falls zu umfangreich -- spätestens im
+Anhang) die entsprechenden Diagramme eingebunden werden.
+
+\section{Details zur konkreten Implementierung}
+Hier sollten ausgewählte Teile des Source-Codes, die für die Funktionalität
+des Programms fundamental sind, im Detail erläutert werden. Neben dem
+Aufzeigen der generellen Konzepte zur Umsetzung des mathematischen Kalküls in
+Programm-Code geht es hier auch um Fragen wie Effizienz, Parallelisierbarkeit,
+numerische Stabilität, etc.. 
+
+\section{Probleme bei der Implementierung}
+Klar!
+
+\chapter{Anwendung neuronaler Netze}
+\label{chap4}
+\markboth{\ \ \ \  {\tiny \cpr} \hfill Kap.\ \ref{chap4} \ \ Anwendung neuronaler Netze}{Kap.\ \ref{chap4} \ \ Anwendung neuronaler Netze \hfill {\tiny \cpr} \ \ \ \ }
+\section{Anforderungen an Hard- und Software}
+\begin{itemize}
+\itemsep -6pt
+\item Hardware-Plattform
+\item Besonderheiten der Rechner-Architektur
+\item Prozessor-Typ bzw.\ -Typen 
+\item Taktfrequenz 
+\item Hauptspeicher-Größe 
+\item Cache 
+\item Swapspace (falls verwendet)
+\item Betriebssystem und Versionsnummer 
+\item Entwicklungsumgebung 
+\item Programmiersprache 
+\item Compiler bzw.\ Interpreter und Versionsnummer 
+\item Compiler- bzw.\ Interpreteroptionen 
+\item verwendete Bibliotheken
+\item alle relevanten Implementationsdetails 
+      (insbesondere gesetzte Parameter u.~ä.)
+\item usw., usw.
+\end{itemize}
+Alle diese Angaben sind wichtig, da sich die Ergebnisse sonst nur bedingt
+reproduzieren lassen. Nicht reproduzierbare Anwendungen sind aber wertlos!
+
+\section{Anwendung des Java-Programms}
+
+Hier sollte eine Beispiel-Anwendung mit dem entwickelten Programm
+durchgespielt werden und möglichst mit Screenshots dokumentiert werden.
+
+\chapter{Zusammenfassung und Ausblick}
+\label{chap5}
+\markboth{\ \ \ \  {\tiny \cpr} \hfill Kap.\ \ref{chap5} \ \ Zusammenfassung und Ausblick}{Kap.\ \ref{chap5} \ \ Zusammenfassung und Ausblick \hfill {\tiny \cpr} \ \ \ \ }
+Noch einmal wird kurz erläutert, was in der Arbeit eigentlich gemacht 
+wurde. Außerdem wird gesagt, was nach Meinung der Autorin bzw.\ des
+Autors noch alles gemacht werden könnte. Dadurch kann man zeigen, dass
+man auch etwas über den Tellerrand der eigentlichen Problemstellung
+hinweg gesehen hat. Insgesamt sollten dazu 1--2~Seiten genügen. 
+Am Ende dieses Kapitels sollte die Bachelor-/Master-Arbeit etwa 
+{\bf 40/80 Seiten} umfassen! \setcounter{page}{40}
+Natürlich ist auch dies nur ein grober, aber im Auge zu behaltender
+Anhaltspunkt! Lieber gute 40 Seiten als redundante und langweilige 60 Seiten!
+
+\newpage
+\markboth{\ \ \ \  {\tiny \cpr} \hfill Literaturverzeichnis}
+         {Literaturverzeichnis \hfill {\tiny \cpr} \ \ \ \ }
+\normalsize % \footnotesize %\small
+\baselineskip=14pt
+\begin{thebibliography}{llll}
+\addcontentsline{toc}{chapter}{\protect\numberline{}Literaturverzeichnis}
+\bibitem{buch} P.P.\ Autor, 
+      Titel des Buchs, Verlag, Erscheinungsort, Erscheinungsjahr.
+
+\bibitem{artikel} P.P.\ Autor, Titel des Artikels, 
+      {\sl Titel der  Zeitschrift},  
+      {\bf Band}, Jahr, ersteSeite--letzteSeite.
+
+\bibitem{wwwlink} P.P.\ Autor, 
+      Titel der www-Seite, http-Adresse, Datum.
+
+\bibitem{chu1} C.K.\ Chui und X.\ Li,
+      Approximation by ridge functions
+      and neural networks with one hidden layer,
+      {\sl J.\ Appr.\ Theory} {\bf 70}, 1992, 131--141.
+
+\bibitem{chu2} C.K.\ Chui und X.\ Li,
+      Realization of neural networks with
+      one hidden layer, in: {\sl Multivariate Approximation: From CAGD to
+      Wavelets}, K.\ Jetter und F.\ Utreras (Herausgeber), World Scientific,
+      Singapore, 1993, 77--89.
+
+\bibitem{dev} R.\ A.\ DeVore, R.\ Howard und C.\ A.\ Micchelli, 
+      Optimal nonlinear approximation,
+      {\sl Manuscripta Mathematica} {\bf 63}, 1989, 469--478. 
+
+\bibitem{hec} R.\ Hecht-Nielsen,
+      Neurocomputing, Addison-Wesley, Reading (Mas\-sa\-chusetts), 1990.
+
+\bibitem{len1} B.\ Lenze,
+      Note on a density question for neural networks, 
+      {\sl Numerical Funct.\ Analysis and Optimiz.} {\bf 15}, 1994, 909--913.
+
+\bibitem{len2} B.\ Lenze,
+      Einführung in die Fourier-Analysis, Logos Verlag, Berlin, 2000, zweite
+      Auflage. 
+
+\bibitem{len3} B.\ Lenze,
+      Einführung in die Mathematik neuronaler Netze, Logos Verlag,
+      Berlin, 2003, zweite Auflage.
+
+\bibitem{les} M.\ Leshno, V.Y.\ Lin, A.\ Pinkus und S.\ Schocken,
+      Multilayer feedforward
+      networks with a nonpolynomial activation function can approximate any
+      function, {\sl Neural Networks} {\bf 6}, 1993, 861--867.
+
+\bibitem{mha1} H.N.\ Mhaskar,
+      Approximation properties of a multilayered feedforward artificial
+      neural network, 
+      {\sl Adv.\ in Comp.\ Math.} {\bf 1}, 1993, 61--80.
+
+\bibitem{mha2} H.N.\ Mhaskar,
+      Neural networks for optimal approximation of smooth and analytic functions,
+      {\sl Neural Computation} {\bf 8}, 1996, 164--177.
+
+\bibitem{mha3} H.N.\ Mhaskar und C.A.\ Micchelli,
+      Approximation by superposition of sigmoidal
+      and radial basis functions,
+      {\sl Adv.\ in Appl.\ Math.} {\bf 13}, 1992, 350--373.
+
+\bibitem{mha4} H.N.\ Mhaskar und C.A.\ Micchelli,
+      Degree of approximation by neural and translation networks with 
+      a single hidden layer,
+      {\sl Adv.\ in Appl.\ Math.} {\bf 16}, 1995, 151--183.
+
+\bibitem{mue} B.\ Müller und J.\ Reinhardt,
+      Neural Networks, Springer-Verlag, Berlin-Heidelberg-New York, 
+      corrected second printing, 1991.
+
+\bibitem{pin} A.\ Pinkus, 
+      TDI-subspaces of $C(\RR^d)$ and some density problems from neural networks,
+      {\sl J.\ Appr.\ Theory} {\bf 85}, 1996, 269--287.
+
+\end{thebibliography}
+
+
+\chapter*{}
+\addcontentsline{toc}{chapter}{\protect\numberline{}Anhang A}
+\markboth{\ \ \ \  {\tiny \cpr} \hfill Anhang}
+         {Anhang \hfill {\tiny \cpr} \ \ \ \ }
+\normalsize % \footnotesize %\small
+\noindent
+{\bf \LARGE Anhang A} \\[0.4cm]
+Ein oder mehrere Anhänge können, müssen aber nicht vorhanden sein.
+Als Faustregel gilt: Alles was den Lesefluss stört, kann in einen
+Anhang, also insbesondere Programmlistings (länger als eine Seite),
+umfangreiches Tabellen-Material, etc.. Die Listings der Programme,
+also der {\bf Original-Source-Code}, 
+sollten auf jeden Fall -- außer eventuell im Anhang -- auch auf 
+CD-ROM  der Bachelor-/Master-Arbeit in einem Einsteckfach beigelegt
+werden. Als Zugabe 
+kann dort  auch noch direkt ausführbarer Maschinen-Code für verschiedene
+Plattformen hinterlegt  werden. Ebenfalls sollte es eine
+Selbstinstallationsroutine für mindestens ein gängiges Betriebssystem auf dem
+Datenträger geben! \\ 
+Im Gegensatz zu normalen Kapiteln werden Anhänge zur besseren Unterscheidung
+nicht mit "`1"', "`2"', "`3"',$\ldots$ durchnummeriert, sondern mit
+"`A"', "`B"', "`C"',$\ldots$. Ist nur ein Anhang vorhanden, kann die
+Nummerierung "`A"' entfallen. \\[0.2cm]
+Am Ende des Anhangs sollte der Umfang der Bachelor-/Master-Arbeit etwa 
+{\bf 60/100 Seiten} betragen! 
+
+\chapter*{}
+\addcontentsline{toc}{chapter}{\protect\numberline{}Anhang B}
+\markboth{\ \ \ \  {\tiny \cpr} \hfill Anhang}
+         {Anhang \hfill {\tiny \cpr} \ \ \ \ }
+\normalsize % \footnotesize %\small
+\renewcommand{\baselinestretch}{1.3} 
+\noindent
+{\bf \LARGE Anhang B} \\[0.4cm]
+\vspace*{2cm}
+\begin{center}
+Hier könnten Klassen- oder UML-Diagramme stehen!
+\end{center}
+
+\chapter*{}
+\addcontentsline{toc}{chapter}{\protect\numberline{}Anhang C}
+\markboth{\ \ \ \  {\tiny \cpr} \hfill Anhang}
+         {Anhang \hfill {\tiny \cpr} \ \ \ \ }
+\normalsize % \footnotesize %\small
+\renewcommand{\baselinestretch}{1.3} 
+\noindent
+{\bf \LARGE Anhang C} \\[0.4cm]
+\vspace*{2cm}
+\begin{center}
+Hier könnten konkrete Teile des Java-Quellcodes stehen!
+\end{center}
+
+\setcounter{page}{60}
+
+\mbox{}
+
+
+\chapter*{}
+\addcontentsline{toc}{chapter}{\protect\numberline{}Eidesstattliche Erklärung}
+\markboth{\ \ \ \  {\tiny \cpr} \hfill Erklärungen}
+         {Erklärungen \hfill {\tiny \cpr} \ \ \ \ }
+\vspace*{0.5cm}
+\noindent
+{\bf Eidesstattliche Erklärung} \\
+Ich versichere an Eides statt, dass ich die vorliegende Arbeit selbständig
+angefertigt und mich keiner fremden Hilfe bedient sowie keine anderen als die
+angegebenen Quellen und Hilfsmittel benutzt habe. Alle Stellen, die wörtlich
+oder sinngemäß veröffentlichten oder nicht veröffentlichten Schriften und
+anderen Quellen entnommen sind, habe ich als solche kenntlich gemacht. Diese
+Arbeit hat in gleicher oder ähnlicher Form noch keiner Prüfungsbehörde
+vorgelegen. 
+
+\vspace{1cm}
+Dortmund, den \today
+\ \ \  \ \ \hfill {\tt Unterschrift nicht vergessen!} \\
+
+
+\vspace*{3cm}
+\noindent
+{\bf Erklärung} \\
+Mir ist bekannt, dass nach § 156 StGB bzw. § 163 StGB eine falsche
+Versicherung an Eides Statt bzw. eine fahrlässige falsche Versicherung an
+Eides Statt mit Freiheitsstrafe bis zu drei Jahren bzw. bis zu einem Jahr oder
+mit Geldstrafe bestraft werden kann. 
+
+\vspace{1cm}
+Dortmund, den \today
+\ \ \  \ \ \hfill {\tt Unterschrift nicht vergessen!} \\
+
+
+\newpage
+%%%%%%%%%%%%%%%%%%%%%% NICHT IN ARBEIT ÜBERNEHMEN!!! %%%%%%%%%%%%%%%%%%%%%%%%%%
+\thispagestyle{empty}
+\noindent
+\vspace*{6cm}
+\begin{center}
+{\bf Spezielle Erklärung vor Beginn der Bachelor-Thesis/Master-Thesis}
+\end{center}
+Hiermit erkläre ich, dass ich die vorausgehenden Seiten, die man sich unter 
+\\[0.2cm]
+{\scriptsize \bf \hspace*{0.3cm}ftp://gatekeeper.informatik.fh-dortmund.de/pub/professors/lenze/thesis/thesis.pdf} \\[0.2cm]
+ansehen kann, mit den Erläuterungen zum Aufbau, zum Umfang und zum Inhalt einer
+Bachelor-/Master-Arbeit sorgfältig 
+gelesen und verstanden habe. Insbesondere ist mir klar, was man unter
+wissenschaftlichem Arbeiten versteht und dass korrektes Zitieren ein
+wesentliches Element in diesem Zusammenhang ist. Alle Fragen, die es in diesem
+Kontext noch gab, habe ich inzwischen mit Herrn Lenze geklärt, und es bestehen
+keine Unklarheiten mehr. Über die besondere Problematik von Plagiaten und den
+Kriterien, die ein Vorliegen anzeigen, bin ich ebenfalls genau unterrichtet.
+
+\vspace{1.5cm}
+Dortmund, den \\
+\ \ \  \ \ \hspace*{8cm} {\tiny Unterschrift!} \\
+
+\vfill
+
+\end{document}
+
+
+
+
+

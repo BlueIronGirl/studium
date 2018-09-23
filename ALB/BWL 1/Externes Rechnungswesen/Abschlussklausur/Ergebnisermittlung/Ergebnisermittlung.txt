@@ -1,0 +1,23 @@
+a) §4 Abs.3 GuV
+Einnahmen
+Umsatzerlöse				50.000
+unentgeltliche Warenabgaben	5.000
+Summe						55.000
+
+Ausgaben
+Wareneinkauf				20.000
+Miete						6.000
+Büromaterial				1.000
+PKW-Kosten					3.000
+Aushilfslöhne				2.000
+Telekommunikation			1.000
+Summe						33.000
+
+Erfolg = Einnahmen - Ausgaben	
+= 55.000 - 33.000 = 22.000
+
+b) Betriebsvermögensvergleich
+EK Jahr 02					52.000
+- EK Jahr 01				30.000
+Erfolg						22.000
+

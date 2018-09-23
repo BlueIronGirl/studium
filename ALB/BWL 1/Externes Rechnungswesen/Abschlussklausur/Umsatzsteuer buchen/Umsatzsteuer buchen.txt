@@ -1,0 +1,29 @@
+Aufgabenstellung
+Ein IT-Unternehmen verkauft Hard- und Software sowie Dienstleistungen auf Ziel.
+Kunde A erhält eine Rechnung über einen PC in Höhe von 400,00 EUR; zzgl. 80,00 EUR; USt.
+Kunde B erhält eine Rechnung über ein Office Paket in Höhe von 300,00 EUR; zzgl. 60,00 EUR; USt.
+Kunde C erhält eine Rechnung über 200,00 EUR; zzgl. 40,00 EUR; USt.
+Kunde C bezahlt per Banküberweisung. 
+Nehmen Sie die erforderlichen Buchungen vor!
+
+Kunde A
+Sollkonto     			 Betrag        Habenkonto
+Forderungen				 480
+						 400		   Umsatzerlöse
+						  80		   Ust
+						  
+Kunde B
+Sollkonto     			 Betrag        Habenkonto
+Forderungen				 360
+						 300		   Umsatzerlöse
+						  60		   Ust
+
+Kunde C
+Sollkonto     			 Betrag        Habenkonto
+Forderungen				 240
+						 200		   Umsatzerlöse
+						  40		   Ust						  
+Bank					 240		   Forderungen	  
+
+						  
+						  

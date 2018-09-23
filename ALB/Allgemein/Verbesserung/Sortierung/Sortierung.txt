@@ -1,0 +1,5 @@
+Bei dem Screenshot (Sortierung.png) sieht man die Sortierung der Modulübersicht (links) und der aktuellen Kurse (rechts).
+Es wäre vielleicht nett, wenn die Module nach irgendeinem Prinzip sortiert wären, möglich wären entweder:
+1) Sortierung nach Name
+2) Sortierung nach Bearbeitungsanfang
+zusätzlich könnte man diese nach der Art (Pflichtmodul, Wahlmodul) sortieren.

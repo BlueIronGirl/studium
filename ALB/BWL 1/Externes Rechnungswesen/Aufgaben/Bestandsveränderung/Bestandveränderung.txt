@@ -1,0 +1,44 @@
+Fertige Erzeugnisse Anfangsbestand = 6000, Endbestand = 8000
+Unfertige Erzeugnisse Anfangsbestand = 3000, Endbestand = 2000
+
+1. Durch Fertigstellung der unfertigen Erzeugnisse wird der Betrag der unfertigen Erzeugnisse um 1000 € reduziert und der Betrag der 
+fertigen Erzeugnisse um 2000 € erhöht.
+
+2. Buchungssätze
+Entwicklung des Kontos FE
+Sollkonto               Betrag              Habenkonto
+SBK						8000				FE
+FE						2000				BV
+
+T-Konto Fertigerzeugnisse
+Soll	               Fertigerzeugnisse                Haben
+6000 (Anfangsbestand)
+2000 (BV)												8000 (Schlussbestand)
+8000													8000
+
+T-Konto Bestandsveränderung
+Soll	               Bestandsveränderung              Haben													
+														2000 (BV)
+2000													2000
+
+Entwicklung des Kontos UE
+Sollkonto               Betrag              Habenkonto
+SBK						2000				UE			
+BV						1000				UE		
+
+T-Konto Unfertige Erzeugnisse
+Soll	                Unfertige Erzeugnisse           Haben
+3000 (Anfangsbestand)									2000 (Schlussbestand)
+														1000 (BV)
+3000													3000
+
+T-Konto Bestandsveränderung
+Soll	               Bestandsveränderung              Habenkonto													
+1000 (BV)												2000 (FE)
+1000 (GuV)
+2000													2000	
+
+=> Saldo ergibt eine Mehrung von 1000 €													
+		
+3. Jahresabschluss: Konto GuV
+§ 275 (2) Nr. 2		

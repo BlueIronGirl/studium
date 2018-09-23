@@ -1,0 +1,43 @@
+*****************     README ZU DEN HTML-LEHREINHEITEN     *****************
+*****************           UEBER NEURONALE NETZE          *****************
+*****************              BURKHARD LENZE              *****************
+
+Im Verzeichnis befinden sich 9 C-Programme (*.c) mit Header-Files 
+(*.h), Objekt-Modulen (*.OBJ) sowie EXE-Files (*.EXE) im DOS-Binary-Format, 
+desweiteren vier Gewichtsdateien (gew*), 26 einfach codierte Bilddateien 
+(x* und y*), 69 HTML-Dateien (*.html) sowie einige Grafik-Dateien.
+
+Ferner finden Sie auch noch 9 Java-Programme (*.java) mit direkt
+interpretierbaren Files (*.class), die EXAKT dieselbe Funktionalitaet wie
+die C-Programme besitzen. Diese Programme bieten sich an, wenn Sie lediglich 
+eine Java-Umgebung (JRE) auf Ihrem Computer installiert haben und nicht 
+in die C-Programme/-Programmierung einsteigen moechten.
+
+Legen Sie auf Ihrem Rechner ein Verzeichnis an, in das Sie alle Dateien
+kopieren, und rufen Sie auf einem DOS/WINDOWS-Rechner die EXE-Files einfach 
+durch ihre Namen auf. Die EXE- und OBJ-Files wurden mit Hilfe des Borland 
+C++ Compilers Version 2.0 mit Turbo Link Version 4.0 erzeugt und sollten 
+problemlos auf allen DOS-Maschinen ab einschliesslich 286 laufen. Die 
+C-Programme sind in ANSI-C geschrieben und koennen von Ihnen natuerlich 
+bei Bedarf mit Ihren eigenen C-Compilern rekompiliert (zum Beispiel auf
+UNIX- oder APPLE-Maschinen noetig) und veraendert werden. Gleiches gilt 
+natuerlich auch fuer die Java-Programme. Da der Overhead aller
+Programme klein bleiben sollte, sind keine besonderen Mechanismen zum 
+Abfang von Eingabefehlern eingebaut! Falls Sie zum Beispiel die maximale 
+Anzahl der im jeweiligen Programm verwalteten Neuronen in einer Schicht 
+ueberschreiten, stuerzt das Programm entweder ab, oder laeuft beim Lernen 
+durch (Abbruch mit CTRL-C), oder bringt voellig falsche Resultate! Dann 
+sind entweder die Feldparameter im Programm zu erhoehen und von Ihnen neu 
+zu kompilieren, oder ein Neustart zu machen und mit entsprechend weniger 
+Neuronen zu arbeiten. In jedem Fall sollten Sie zum Kennenlernen jedes
+Programm erst einmal anhand der im Buch 
+             Einfuehrung in die Mathematik neuronaler Netze
+	     Burkhard Lenze
+	     Logos Verlag, Berlin, 2009, 3-te Auflage
+besprochenen Beispielaufgaben austesten! Dieser Hinweis ist wesentlich!!!
+Starten Sie ferner parallel in einem zweiten Fenster einen Internet-Browser
+mit der Datei index.html in diesem Verzeichnis. Dort wird dann durch 
+Verzweigung in zahlreiche Unterdateien die Implementierung, die Funktion 
+und die Anwendung der einzelnen Programme im Detail erlaeutert.
+
+**********************       VIEL SPASS       **************************** 

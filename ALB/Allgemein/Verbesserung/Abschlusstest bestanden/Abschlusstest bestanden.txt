@@ -1,0 +1,3 @@
+Wenn man einen Abschlusstest oder eine Abschlussklausur besteht, wäre es meiner Meinung sinnvoller,
+in dem Navigationsbereich, analog zur alten Plattform, diese "grün" darzustellen, während der Bearbeitung "orange" und vor der Bearbeitung oder drei Fehlversuchen "rot".
+Aktuell werden diese immer "orange" dargestellt (Abschlusstest bestanden.png).
