@@ -1,0 +1,4 @@
+c:\users\alice_b\documents\visual studio 2010\Projects\OOAnachCS\OOAnachCS\bin\Debug\OOAnachCS.exe
+c:\users\alice_b\documents\visual studio 2010\Projects\OOAnachCS\OOAnachCS\bin\Debug\OOAnachCS.pdb
+c:\users\alice_b\documents\visual studio 2010\Projects\OOAnachCS\OOAnachCS\obj\x86\Debug\OOAnachCS.exe
+c:\users\alice_b\documents\visual studio 2010\Projects\OOAnachCS\OOAnachCS\obj\x86\Debug\OOAnachCS.pdb

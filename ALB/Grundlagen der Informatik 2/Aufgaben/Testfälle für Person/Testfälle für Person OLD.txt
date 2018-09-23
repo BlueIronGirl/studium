@@ -1,0 +1,33 @@
+Name einer Person muss zwischen 2 und X Zeichen lang sein;
+ die Postleitzahl ist eine fünfstellige positive ganze Zahl. 
+ X ist die Zahl, die sich ergibt, wenn Sie die Anzahl der Zeichen Ihres Vornamens und Nachnamens addieren (Max Mustermann = 13).
+
+Testfälle für Person Alice Bedow (-> X = 10)
+Name einer Person muss zwischen 2 und 10 Zeichen lang sein
+die Postleitzahl ist eine fünfstellige positive ganze Zahl
+ 
+Aufgabe 1
+Eingabe	 	Gültige Äquivalenzklasse	Ungültige Äquivalenzklasse
+name 		1) 2 <= name.length() <= 10	2) name.length() < 2
+										3) name.length() > 10
+plz		 	4) 0 <= plz <= 99999		5) plz < 0
+										6) plz > 99999
+										
+Aufgabe 2
+Eingabe					Gültige Äquivalenzklasse										Ungültige Äquivalenzklasse		untere Grenze		obere Grenze		OG der ungültigen Äqui.-klasse	UG der ungütlgien Äqui.-klasse
+Konstruktor Konto()		
+name					1) 2 <= name.length() <= 10										2) name.length() < 2 			name.length() = 2	name.length() = 10	name.length() = 1				name.length() = 11
+																						3) name.length() > 10	
+plz						4) 0 <= plz <= 99999											5) plz < 0						plz = 0				plz = 99999			plz = -1						plz = 100000
+																						6) plz > 99999
+getName()				Keine Eingabe, daher keine Eingabe-Äqui.-klasse vorhanden						
+
+Aufgabe 3
+Testfälle					A		B		C						D						E					F
+getestete Äqui.-Klassen		1U, 4U	1O, 4O	2O,4U					3U,4O					1U,5O				1O,6U
+Konto()							
+name						2		10		1						11						2					10
+plz							0		99999	0						99999					-1					100000
+
+anschli. Ausführung von
+getName()					name	name	Fehler: name zu kurz	Fehler: name zu lang	Fehler: plz negativ	Fehler: plz zu lang

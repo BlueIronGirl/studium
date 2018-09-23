@@ -1,0 +1,43 @@
+FitPlusOOA Alice Bedow 14.12.15 NOTIZEN
+Notizen
+
+Zielbestimmung
+- Verwaltung der Mitglieder
+
+Produktfunktionen
+- Liste aller aktiven und passiven Mitglieder 
+	-> sortiert nach Name, Alter, Zugehörigkeit zur Sportabteilung, Beitragshöhe
+- Abteilungen: Tennis, Schwimmen, Golf
+	-> zugehörigkeit auf Alter beschränkt
+	-> Liste aller Abteilungsmitglieder
+- Überblick über die jährlichen Einnahmen -> Vorausschau über die kommenden 5 Jahre
+- Passives Mitglied
+	-> fester Jahresbeitrag -> einmal jährlich per Lastschrift
+- Aktives Mitglied
+	-> Abteilungsbeitrag -> Rabatt in abhängigkeit vom Jahresbeitrag: 5 % des Abteilungsbeitrags
+		-> 20 Jahre in Abteilung: kein Abteilungsbeitrag mehr
+- Familienrabatte 
+	-> Ehepartner: 10 % auf den Grundbeitrag, jedes Kind 50 %
+- lauffähig auf Handys und PDAs
+
+Produktdaten
+Mitglied
+- Name
+- Alter
+- Beitrag
+
+Sportabteilung
+Aktives Mitglied
+- abteilungsbeitrag
+- rabatt
+- Sportabteilung
+- eintrittAbteilung
+
+Passives Mitglied
+- jahresbeitrag
+- lastschrift
+- zahlungAm
+
+
+
+

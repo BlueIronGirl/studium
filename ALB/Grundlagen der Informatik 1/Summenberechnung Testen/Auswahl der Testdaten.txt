@@ -1,0 +1,11 @@
+Testwert			Begründung
+0					Spezieller Wert
+3600				Spezieller Wert (genau 1 Stunde)
+60					Spezieller Wert (genau 1 Minute)
+1					Spezieller Wert (genau 1 Sekunde)
+5600				Repräsentativer Wert (Stunden, Minuten und Sekunden)
+-5600				Repräsentativer Wert (Stunden, Minuten und Sekunden)
+1002				Repräsentativer Wert (nur Minuten und Sekunden)
+55					Repräsentativer Wert (nur Sekunden)
+3_000_000_000		Extremwert (nicht mehr im Wertebereich des Datentyps Integer)
+-3_000_000_000		Extremwert (nicht mehr im Wertebereich des Datentyps Integer)

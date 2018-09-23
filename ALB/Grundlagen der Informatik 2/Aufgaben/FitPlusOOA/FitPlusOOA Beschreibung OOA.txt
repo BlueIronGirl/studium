@@ -1,0 +1,27 @@
+FitPlusOOA Alice Bedow 14.12.15
+Beschreibung OOA
+Es wird zwischen aktiven und passiven Mitglieder unterschieden.
+Die passiven Mitglieder verfügen über die Attribute
+- Name
+- Alter
+- Jahresbeitrag
+- Lastschrift (zusätzliche Klassen Konto und Geldinstitut)
+- ZahlungAm
+Diese Attribute betreffen alle Mitglieder, also sowohl die aktiven als auch die passiven Mitglieder.
+Im Gegensatz zu den passiven Mitglieder verfügen die aktiven Mitglieder über weitere, zusätzliche Attribute, nämlich den Rabatt in Abhängigkeit
+der Zugehörigkeitsdauer zu einer Sportabteilung: jährlich erhalten diese weitere 5 % Rabatt auf den Abteilungsbeitrag und schließlich eine kostenlose 
+Mitgliedschaft in dieser Abteilung nach 20 Jahren. Daher ist es erforderlich zusätzlich zu der Sportabteilungsart auch das Eintrittsdatum zu speichern,
+um den passenden Rabatt berechnen zu können. Dazu bietet sich eine Assoziationsklasse mit diesen Attributen an, da Mitglieder mindestens einer und
+bis zu drei Sportabteilungen zugeordnet sein könnnen.
+Für die Sportabteilung muss der Name als Abteilungstyp und der Abteilungsbeitrag gespeichert werden, da diese Werte unabhängig von den Mitgliedern
+sind und daher auch seperat gespeichert werden sollten. Die Mitgliedschaft zu einer Sportabteilung ist auf bestimmte Altersgruppen beschränkt. 
+Diese Altersgruppen werden in einem Aufzählungstyp gespeichert und sind einer Sportabteilung zugeordnet (als ArrayList).
+Für den Abteilungstyp wurde ein Aufzählungstyp (Enumeration) mit den Werten Tennis, Schwimmen
+und Golf angelegt, da nur zwischen diesen Sportabteilungen unterschieden werden soll.
+Rabatte auf den Jahresbeitrag erhalten alle Mitglieder, wenn diese EhepartnerIn (10%) oder das Kind (50%) eines anderen Mitglieds sind.
+Dazu wurden zwei reflexive Assoziationen auf die Klasse Mitglied sowie eine Objektmethode erstellt. 
+Die Klasse Mitglied verfügt zudem über die Objektmethode erfassen(), um ein neues Mitglied zu speichern sowie über die Klassenmethoden
+alleMitgliederSortiert(), welche je nach Sortierkriterium(Name,Alter,Sportabteilung,Beitragshöhe) alle Mitglieder ausgibt, 
+ueberblickJahr(), welche die Einnahmen des entsprechenden Jahres ausgibt,
+vorausschau(), welche die voraussichtlichen Einnahmen für die nächsten 5 Jahre ermittelt
+und abteilungsMitglieder(), welche alle Mitglieder einer Abteilung ausgibt.

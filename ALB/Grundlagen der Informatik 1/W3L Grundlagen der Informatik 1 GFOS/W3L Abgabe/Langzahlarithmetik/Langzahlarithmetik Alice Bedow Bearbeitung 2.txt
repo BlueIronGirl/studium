@@ -1,0 +1,162 @@
+Langzahlarithmetik Alice Bedow
+Aufgabe a
+n = 20
+, da (2^64)-1 = ((2^10)^6*2^4) = ((1024)^6*16)
+->  1024^6 entspricht 18 Stellen und die Zahl 16 entspricht 2 Stellen
+-> 20 Stellen werden benötigt
+
+Aufgabe b
+Das Ergebnis würde nicht mehr in eine long-Zahl passen.
+Der Wertebereich des Datentyps long reicht von -2^63 bis 2^63-1. Um diese Aufgabe zu lösen,
+müsste eine Zahl der Größe 2^64-1 möglich sein. Da dies daher nicht mit einer Variable
+des Datentyps long möglich ist, kann dieser nicht genutzt werden.
+
+Aufgabe c(neu)
+Der kleinste Datentyp mit dem dieses Problem gelöst werden könnte, wäre der Datentyp byte, welcher einen Wertebereich von 
+-128 (-2^7) bis +127 (+2^7-1) hat. Dieser Datentyp wird jedoch nicht verwendet, da in Java bei Berechnungen mit byte- und short-
+Werten diese vor der Berechnung in int-Werte umgewandelt werden. Anschließend müssten diese durch eine explizite Typeinengung
+wieder in byte- bzw. short-Werte umgewandelt werden. Demzufolge kann direkt der Datentyp int verwendet werden.
+
+Code
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package langzahlarithmetik;
+
+/**
+ *
+ * @author Alice Bedow
+ * @date 08.11.2015
+ * Programm zur Berechnung der Summe der Zahlen 2^0 bis 2^63 (also 2^64-1)
+ */
+public class LangzahlarithmetikOptimized {
+    public static void main(String args[])
+    {
+        int langzahl[] = new int[20]; //Speicherarray Summe der Koerner
+        int koerner[] =  new int[20]; //Speicherarray Koerner
+        koerner[0] = 1;
+        for(int i=1;i<=64;i++)//64 Felder des Schachbretts
+        {
+            if(i>1)
+            {   
+                koernerMultiply(koerner); //Erhoehung der Anzahl der Koerner durch Multiplikation jeder Stelle mit 2
+            }
+            summeDerKoerner(langzahl,koerner); //Berechnung der aktuellen Summe der Koerner
+            ausgabe(langzahl,koerner,i); //Ausgabe als Tabelle
+        }
+    }
+    public static void koernerMultiply (int[] koerner)
+    {
+        //Erhoehung der Anzahl der Koerner durch Multiplikation jeder Stelle mit 2
+        int ua=0,un=0,k=0;
+        while(k < koerner.length)
+        {
+            un=(koerner[k]*2+ua)/10;
+            koerner[k]=(koerner[k]*2+ua)%10;
+            ua=un;
+            k++;
+        }
+    }
+    public static void summeDerKoerner (int[] langzahl,int[] koerner)
+    {
+        //Berechnung der aktuellen Summe der Koerner
+        int j=0,ua=0,un=0;
+        while(j<koerner.length)
+        {
+            un=(langzahl[j]+koerner[j]+ua)/10;
+            langzahl[j]=(langzahl[j]+koerner[j]+ua)%10;
+            ua=un;
+            j++;
+        }
+    }
+    public static void ausgabe(int[] langzahl, int[] koerner,int schachfeldZaehler)
+    {
+        //Ausgabe als Tabelle
+        if (schachfeldZaehler == 1)
+            System.out.println("Zaehler\tKoerner\t\t\tSumme der Koerner"); //Ueberschrift
+        System.out.print(schachfeldZaehler+"\t");
+        for(int y=koerner.length-1;y>=0;y--)
+        {
+            System.out.print(koerner[y]);
+        }
+        System.out.print("\t");
+        for(int y=(langzahl.length-1);y>=0;y--)
+        {
+            System.out.print(langzahl[y]);
+
+        }
+        System.out.println();
+    }            
+}
+
+Ausgabe 
+Zaehler	Koerner			Summe der Koerner
+1	00000000000000000001	00000000000000000001
+2	00000000000000000002	00000000000000000003
+3	00000000000000000004	00000000000000000007
+4	00000000000000000008	00000000000000000015
+5	00000000000000000016	00000000000000000031
+6	00000000000000000032	00000000000000000063
+7	00000000000000000064	00000000000000000127
+8	00000000000000000128	00000000000000000255
+9	00000000000000000256	00000000000000000511
+10	00000000000000000512	00000000000000001023
+11	00000000000000001024	00000000000000002047
+12	00000000000000002048	00000000000000004095
+13	00000000000000004096	00000000000000008191
+14	00000000000000008192	00000000000000016383
+15	00000000000000016384	00000000000000032767
+16	00000000000000032768	00000000000000065535
+17	00000000000000065536	00000000000000131071
+18	00000000000000131072	00000000000000262143
+19	00000000000000262144	00000000000000524287
+20	00000000000000524288	00000000000001048575
+21	00000000000001048576	00000000000002097151
+22	00000000000002097152	00000000000004194303
+23	00000000000004194304	00000000000008388607
+24	00000000000008388608	00000000000016777215
+25	00000000000016777216	00000000000033554431
+26	00000000000033554432	00000000000067108863
+27	00000000000067108864	00000000000134217727
+28	00000000000134217728	00000000000268435455
+29	00000000000268435456	00000000000536870911
+30	00000000000536870912	00000000001073741823
+31	00000000001073741824	00000000002147483647
+32	00000000002147483648	00000000004294967295
+33	00000000004294967296	00000000008589934591
+34	00000000008589934592	00000000017179869183
+35	00000000017179869184	00000000034359738367
+36	00000000034359738368	00000000068719476735
+37	00000000068719476736	00000000137438953471
+38	00000000137438953472	00000000274877906943
+39	00000000274877906944	00000000549755813887
+40	00000000549755813888	00000001099511627775
+41	00000001099511627776	00000002199023255551
+42	00000002199023255552	00000004398046511103
+43	00000004398046511104	00000008796093022207
+44	00000008796093022208	00000017592186044415
+45	00000017592186044416	00000035184372088831
+46	00000035184372088832	00000070368744177663
+47	00000070368744177664	00000140737488355327
+48	00000140737488355328	00000281474976710655
+49	00000281474976710656	00000562949953421311
+50	00000562949953421312	00001125899906842623
+51	00001125899906842624	00002251799813685247
+52	00002251799813685248	00004503599627370495
+53	00004503599627370496	00009007199254740991
+54	00009007199254740992	00018014398509481983
+55	00018014398509481984	00036028797018963967
+56	00036028797018963968	00072057594037927935
+57	00072057594037927936	00144115188075855871
+58	00144115188075855872	00288230376151711743
+59	00288230376151711744	00576460752303423487
+60	00576460752303423488	01152921504606846975
+61	01152921504606846976	02305843009213693951
+62	02305843009213693952	04611686018427387903
+63	04611686018427387904	09223372036854775807
+64	09223372036854775808	18446744073709551615
+
+

@@ -1,0 +1,8 @@
+Terminplaner Alice Bedow 27.11.15
+Aufgabe a
+/1/ LocalDate
+/2/ boolean isBefore(ChronoLocalDate other) : Dient dazu, festzustellen, ob das eingegebene Datum vor einem anderen Datum liegt. Wenn nein, ist mit dem nächsten Datum fortzufahren.
+	boolean isAfter(ChronoLocalDate other) : Dient dazu, festzustellen, ob das eingegebene Datum nach einem anderen Datum liegt. Wenn ja, ist das eingegebene Datum vor diesem zu speichern.
+	boolean isEqual(ChronoLocalDate other) : Dient dazu, festzustellen, ob das eingegebene Datum mit einem anderen Datum übereinstimmt. Wenn ja, ist mit dem nächsten Datum fortzufahren.
+	static LocalDate now() : Liefert das aktuelle Datum. Wird zur Überprüfung, ob das eingegebene Datum in der Zukunft liegt, verwendet.
+	static LocalDate parse(CharSequence text) : Wandelt den eingegebenen Text (String) in ein LocalDate um.

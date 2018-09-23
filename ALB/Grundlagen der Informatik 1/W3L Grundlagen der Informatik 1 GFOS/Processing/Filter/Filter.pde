@@ -1,0 +1,10 @@
+PImage foto;
+size(400, 600);
+foto = loadImage("MeinFoto.jpg");
+image(foto,0,0,200,300);
+filter(BLUR,10);
+image(foto,0,300,200,300);
+filter(GRAY);
+image(foto,200,0,200,300);
+filter(THRESHOLD);
+image(foto,200,300,200,300);

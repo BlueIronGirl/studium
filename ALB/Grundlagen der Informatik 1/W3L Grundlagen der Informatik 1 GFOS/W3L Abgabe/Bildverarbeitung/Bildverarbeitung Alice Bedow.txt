@@ -1,0 +1,164 @@
+Aufgabe a
+Code
+
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package bildverarbeitung;
+
+/**
+ *
+ * @author Alice Bedow
+ * @date 27.10.2015
+ * Programm zur Erstellung eines Histogramms eines Feldes
+ */
+public class Bildverarbeitung1 {
+
+    public static void main(String args[]) {
+        int[][] pixel = {{34, 255, 255, 56}, {127, 204, 11, 34}, {123, 98, 127, 34}, {34, 34, 127, 17}};
+        int[][] anz = new int[pixel.length*pixel[0].length][2];
+        int pos,posMin,min;
+        //Aufsteigend sortieren
+        for(int i=0;i<pixel.length;i++) //alle Zeilen
+        {
+            for(int j=0;j<pixel[0].length;j++) //alle Spalten
+            {
+                //erste Position & ihren Wert speichern
+                min=pixel[i][j];
+                posMin = i*4+j;
+                //kleinste Position ermitteln
+                for(pos=i*4+j+1;pos<(pixel.length*pixel[0].length);pos++)
+                {
+                    if(pixel[pos/4][pos%4]<min)
+                    {
+                        min=pixel[pos/4][pos%4];
+                        posMin=pos;
+                    }
+                }
+                //Vertauschen
+                int merke = pixel[i][j];
+                pixel[i][j]=pixel[posMin/4][posMin%4];
+                pixel[posMin/4][posMin%4]=merke;
+            }
+        }
+        boolean check;
+        int zaehler = 1;
+        anz[0][0] = pixel[0][0];
+        anz[0][1] = 1;
+        //Anzahl der einzelnen Zahlen bestimmen
+        for (int i = 0; i < pixel.length; i++) {
+
+            for (int j = 0; j < pixel[0].length; j++) {
+                if (!(i == 0 && j == 0)) //erstes Elem
+                {
+
+                    check = false;
+                    for (int k = 0; k < anz.length; k++) {
+                        if (anz[k][0] == pixel[i][j]) {
+                            anz[k][1]++;
+                            check = true;
+                        }
+                    }
+                    if (check == false) {
+                        anz[zaehler][0] = pixel[i][j];
+                        anz[zaehler][1] = 1;
+                        zaehler++;
+                    }
+                }                
+            }
+        }
+        //Ausgabe 
+        System.out.println("Zahl\tAnzahl");
+        for (int i = 0; i < anz.length; i++) {
+            if(anz[i][0]!=0)
+            {
+                System.out.print(anz[i][0]+"\t");
+                System.out.print(anz[i][1]);
+                System.out.println(); 
+            }
+
+        }
+    }
+}
+
+Ausgabe
+Zahl	Anzahl
+11	1
+17	1
+34	5
+56	1
+98	1
+123	1
+127	3
+204	1
+255	2
+
+Aufgabe b
+Code
+
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package bildverarbeitung;
+
+/**
+ *
+ * @author Alice Bedow
+ * @date 27.10.2015
+ * Programm zur Berechnung des Medians zweier Felder
+ */
+public class Bildverarbeitung2 {
+    public static void main(String args[])
+    {
+        int werte[] = {22,0,4,2,62,262,25,2,86,7,21,6,9,2,1,5,11,45};
+        int werte2[] = {33,9,2,6,5,8,2,4,8,43,58,34,2,5,2, 1, 2 }; //Alice Bedow, AB = 1,2
+        int median;
+        //Beide Arrays Sortieren
+        werte = sortieren(werte);
+        werte2 = sortieren(werte2);
+        median = medianBerechnen(werte);
+        System.out.println("Der Median des ersten Feldes ist: "+median);
+        median = medianBerechnen(werte2);
+        System.out.println("Der Median des zweiten Feldes ist: "+median);
+    }
+    public static int[] sortieren(int[] werte)
+    {
+        for(int i=0;i<werte.length;i++)
+        {
+            int min = werte[i];
+            int posMin = i;
+            for(int j=i+1;j<werte.length;j++)
+            {
+                if(werte[j]<min)
+                {
+                    min = werte[j];
+                    posMin = j;
+                }
+            }
+            //Vertauschen
+            int temp = werte[posMin];
+            werte[posMin] = werte[i];
+            werte[i] = temp;
+        }
+        return werte;
+    }
+    public static int medianBerechnen(int[] werte)
+    {
+        int temp = werte.length / 2;
+        int median;
+        if(werte.length%2==0)
+            median = (werte[temp]+werte[temp+1])/2;
+        else
+            median = werte[temp];
+        return median;
+    }
+}
+
+Ausgabe
+Der Median des ersten Feldes ist: 10
+Der Median des zweiten Feldes ist: 5

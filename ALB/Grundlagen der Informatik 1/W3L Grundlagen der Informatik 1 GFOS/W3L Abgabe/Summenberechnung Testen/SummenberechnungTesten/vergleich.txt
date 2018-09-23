@@ -1,0 +1,6 @@
+Vergleichen der Dateien bed1aus.txt und BED2AUS.TXT
+***** bed1aus.txt
+
+***** BED2AUS.TXT
+*****
+

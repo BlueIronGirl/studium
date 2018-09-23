@@ -1,0 +1,21 @@
+Testdurchläufe
+
+Auswahl von Mahntexten
+______________________
+Mahntext: 1
+Mahntext: 2
+Mahntext: 3
+Bitte wählen Sie:
+______________________
+1
+Mahntext 1
+
+Auswahl von Mahntexten
+______________________
+Mahntext: 1
+Mahntext: 2
+Mahntext: 3
+Bitte wählen Sie:
+______________________
+4
+Mahntext nicht vorhanden

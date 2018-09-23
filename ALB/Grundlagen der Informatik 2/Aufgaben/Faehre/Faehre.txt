@@ -1,0 +1,738 @@
+run:
+66.09
+Beladene Fahrzeuge: 0x Lkw / 1x Pkw / 0x Motorrad / 0x Fahrrad
+Aktuelle Nutzfläche: 17.2134 m2
+Aktuelles Nutzgewicht: 414.13 kg
+Durchschnittliche Nutzfläche: 17.2134 m2
+Durchschnittliches Nutzgewicht: 414.13 kg
+Anzahl Fahrzeuge (Prognose): 14
+
+Beladene Fahrzeuge: 1x Lkw / 1x Pkw / 0x Motorrad / 0x Fahrrad
+Aktuelle Nutzfläche: 24.6747 m2
+Aktuelles Nutzgewicht: 10742.169999999998 kg
+Durchschnittliche Nutzfläche: 12.33735 m2
+Durchschnittliches Nutzgewicht: 5371.084999999999 kg
+Anzahl Fahrzeuge (Prognose): 14
+
+Beladene Fahrzeuge: 1x Lkw / 2x Pkw / 0x Motorrad / 0x Fahrrad
+Aktuelle Nutzfläche: 44.04990000000001 m2
+Aktuelles Nutzgewicht: 12738.079999999998 kg
+Durchschnittliche Nutzfläche: 14.683300000000003 m2
+Durchschnittliches Nutzgewicht: 4246.026666666666 kg
+Anzahl Fahrzeuge (Prognose): 14
+
+Beladene Fahrzeuge: 2x Lkw / 2x Pkw / 0x Motorrad / 0x Fahrrad
+Aktuelle Nutzfläche: 61.31070000000001 m2
+Aktuelles Nutzgewicht: 20954.299999999996 kg
+Durchschnittliche Nutzfläche: 15.327675000000003 m2
+Durchschnittliches Nutzgewicht: 5238.574999999999 kg
+Anzahl Fahrzeuge (Prognose): 13
+
+Beladene Fahrzeuge: 2x Lkw / 3x Pkw / 0x Motorrad / 0x Fahrrad
+Aktuelle Nutzfläche: 61.80750000000001 m2
+Aktuelles Nutzgewicht: 22992.039999999997 kg
+Durchschnittliche Nutzfläche: 12.361500000000003 m2
+Durchschnittliches Nutzgewicht: 4598.407999999999 kg
+Anzahl Fahrzeuge (Prognose): 13
+
+Beladene Fahrzeuge: 3x Lkw / 3x Pkw / 0x Motorrad / 0x Fahrrad
+Aktuelle Nutzfläche: 69.44985000000001 m2
+Aktuelles Nutzgewicht: 31702.0 kg
+Durchschnittliche Nutzfläche: 11.574975000000002 m2
+Durchschnittliches Nutzgewicht: 5283.666666666667 kg
+Anzahl Fahrzeuge (Prognose): 13
+
+Beladene Fahrzeuge: 3x Lkw / 3x Pkw / 0x Motorrad / 1x Fahrrad
+Aktuelle Nutzfläche: 70.38045000000001 m2
+Aktuelles Nutzgewicht: 31784.06 kg
+Durchschnittliche Nutzfläche: 10.054350000000001 m2
+Durchschnittliches Nutzgewicht: 4540.58 kg
+Anzahl Fahrzeuge (Prognose): 13
+
+Beladene Fahrzeuge: 3x Lkw / 3x Pkw / 1x Motorrad / 1x Fahrrad
+Aktuelle Nutzfläche: 74.50695000000002 m2
+Aktuelles Nutzgewicht: 32035.97 kg
+Durchschnittliche Nutzfläche: 9.313368750000002 m2
+Durchschnittliches Nutzgewicht: 4004.49625 kg
+Anzahl Fahrzeuge (Prognose): 13
+
+Beladene Fahrzeuge: 3x Lkw / 4x Pkw / 1x Motorrad / 1x Fahrrad
+Aktuelle Nutzfläche: 83.81295000000001 m2
+Aktuelles Nutzgewicht: 33181.98 kg
+Durchschnittliche Nutzfläche: 9.312550000000002 m2
+Durchschnittliches Nutzgewicht: 3686.886666666667 kg
+Anzahl Fahrzeuge (Prognose): 13
+
+Beladene Fahrzeuge: 4x Lkw / 4x Pkw / 1x Motorrad / 1x Fahrrad
+Aktuelle Nutzfläche: 136.40475 m2
+Aktuelles Nutzgewicht: 38356.350000000006 kg
+Durchschnittliche Nutzfläche: 13.640475 m2
+Durchschnittliches Nutzgewicht: 3835.6350000000007 kg
+Anzahl Fahrzeuge (Prognose): 13
+
+Beladene Fahrzeuge: 4x Lkw / 4x Pkw / 1x Motorrad / 2x Fahrrad
+Aktuelle Nutzfläche: 136.59285 m2
+Aktuelles Nutzgewicht: 38398.950000000004 kg
+Durchschnittliche Nutzfläche: 12.417531818181818 m2
+Durchschnittliches Nutzgewicht: 3490.8136363636368 kg
+Anzahl Fahrzeuge (Prognose): 13
+
+Beladene Fahrzeuge: 4x Lkw / 5x Pkw / 1x Motorrad / 2x Fahrrad
+Aktuelle Nutzfläche: 136.78725 m2
+Aktuelles Nutzgewicht: 40302.700000000004 kg
+Durchschnittliche Nutzfläche: 11.3989375 m2
+Durchschnittliches Nutzgewicht: 3358.558333333334 kg
+Anzahl Fahrzeuge (Prognose): 12
+
+Beladene Fahrzeuge: 5x Lkw / 5x Pkw / 1x Motorrad / 2x Fahrrad
+Aktuelle Nutzfläche: 196.85805 m2
+Aktuelles Nutzgewicht: 47528.240000000005 kg
+Durchschnittliche Nutzfläche: 15.142926923076923 m2
+Durchschnittliches Nutzgewicht: 3656.018461538462 kg
+Anzahl Fahrzeuge (Prognose): 12
+
+Beladene Fahrzeuge: 5x Lkw / 5x Pkw / 2x Motorrad / 2x Fahrrad
+Aktuelle Nutzfläche: 206.25405 m2
+Aktuelles Nutzgewicht: 47693.060000000005 kg
+Durchschnittliche Nutzfläche: 14.732432142857144 m2
+Durchschnittliches Nutzgewicht: 3406.647142857143 kg
+Anzahl Fahrzeuge (Prognose): 12
+
+Beladene Fahrzeuge: 6x Lkw / 5x Pkw / 2x Motorrad / 2x Fahrrad
+Aktuelle Nutzfläche: 237.82845 m2
+Aktuelles Nutzgewicht: 52930.310000000005 kg
+Durchschnittliche Nutzfläche: 15.85523 m2
+Durchschnittliches Nutzgewicht: 3528.6873333333338 kg
+Anzahl Fahrzeuge (Prognose): 12
+
+Beladene Fahrzeuge: 7x Lkw / 5x Pkw / 2x Motorrad / 2x Fahrrad
+Aktuelle Nutzfläche: 300.11834999999996 m2
+Aktuelles Nutzgewicht: 54275.71000000001 kg
+Durchschnittliche Nutzfläche: 18.757396874999998 m2
+Durchschnittliches Nutzgewicht: 3392.2318750000004 kg
+Anzahl Fahrzeuge (Prognose): 12
+
+Beladene Fahrzeuge: 8x Lkw / 5x Pkw / 2x Motorrad / 2x Fahrrad
+Aktuelle Nutzfläche: 340.21784999999994 m2
+Aktuelles Nutzgewicht: 59827.69 kg
+Durchschnittliche Nutzfläche: 20.01281470588235 m2
+Durchschnittliches Nutzgewicht: 3519.275882352941 kg
+Anzahl Fahrzeuge (Prognose): 12
+
+Beladene Fahrzeuge: 8x Lkw / 5x Pkw / 2x Motorrad / 3x Fahrrad
+Aktuelle Nutzfläche: 340.29134999999997 m2
+Aktuelles Nutzgewicht: 59864.950000000004 kg
+Durchschnittliche Nutzfläche: 18.905074999999997 m2
+Durchschnittliches Nutzgewicht: 3325.8305555555557 kg
+Anzahl Fahrzeuge (Prognose): 12
+
+Beladene Fahrzeuge: 8x Lkw / 5x Pkw / 2x Motorrad / 4x Fahrrad
+Aktuelle Nutzfläche: 340.36035 m2
+Aktuelles Nutzgewicht: 59879.700000000004 kg
+Durchschnittliche Nutzfläche: 17.913702631578946 m2
+Durchschnittliches Nutzgewicht: 3151.5631578947373 kg
+Anzahl Fahrzeuge (Prognose): 12
+
+Beladene Fahrzeuge: 9x Lkw / 5x Pkw / 2x Motorrad / 4x Fahrrad
+Aktuelle Nutzfläche: 384.51075 m2
+Aktuelles Nutzgewicht: 61612.79 kg
+Durchschnittliche Nutzfläche: 19.225537499999998 m2
+Durchschnittliches Nutzgewicht: 3080.6395 kg
+Anzahl Fahrzeuge (Prognose): 11
+
+Beladene Fahrzeuge: 10x Lkw / 5x Pkw / 2x Motorrad / 4x Fahrrad
+Aktuelle Nutzfläche: 421.45275 m2
+Aktuelles Nutzgewicht: 62548.15 kg
+Durchschnittliche Nutzfläche: 20.06917857142857 m2
+Durchschnittliches Nutzgewicht: 2978.4833333333336 kg
+Anzahl Fahrzeuge (Prognose): 11
+
+Beladene Fahrzeuge: 10x Lkw / 6x Pkw / 2x Motorrad / 4x Fahrrad
+Aktuelle Nutzfläche: 425.86275 m2
+Aktuelles Nutzgewicht: 64246.79 kg
+Durchschnittliche Nutzfläche: 19.357397727272726 m2
+Durchschnittliches Nutzgewicht: 2920.308636363636 kg
+Anzahl Fahrzeuge (Prognose): 11
+
+Beladene Fahrzeuge: 10x Lkw / 6x Pkw / 2x Motorrad / 5x Fahrrad
+Aktuelle Nutzfläche: 428.50875 m2
+Aktuelles Nutzgewicht: 64301.88 kg
+Durchschnittliche Nutzfläche: 18.630815217391305 m2
+Durchschnittliches Nutzgewicht: 2795.733913043478 kg
+Anzahl Fahrzeuge (Prognose): 11
+
+Beladene Fahrzeuge: 10x Lkw / 7x Pkw / 2x Motorrad / 5x Fahrrad
+Aktuelle Nutzfläche: 429.43335 m2
+Aktuelles Nutzgewicht: 64632.689999999995 kg
+Durchschnittliche Nutzfläche: 17.89305625 m2
+Durchschnittliches Nutzgewicht: 2693.02875 kg
+Anzahl Fahrzeuge (Prognose): 11
+
+Beladene Fahrzeuge: 10x Lkw / 8x Pkw / 2x Motorrad / 5x Fahrrad
+Aktuelle Nutzfläche: 435.30285000000003 m2
+Aktuelles Nutzgewicht: 65864.06999999999 kg
+Durchschnittliche Nutzfläche: 17.412114000000003 m2
+Durchschnittliches Nutzgewicht: 2634.5627999999997 kg
+Anzahl Fahrzeuge (Prognose): 11
+
+Beladene Fahrzeuge: 11x Lkw / 8x Pkw / 2x Motorrad / 5x Fahrrad
+Aktuelle Nutzfläche: 499.81485000000004 m2
+Aktuelles Nutzgewicht: 73734.12 kg
+Durchschnittliche Nutzfläche: 19.223648076923077 m2
+Durchschnittliches Nutzgewicht: 2835.9276923076923 kg
+Anzahl Fahrzeuge (Prognose): 11
+
+Beladene Fahrzeuge: 12x Lkw / 8x Pkw / 2x Motorrad / 5x Fahrrad
+Aktuelle Nutzfläche: 509.63565000000006 m2
+Aktuelles Nutzgewicht: 76364.12 kg
+Durchschnittliche Nutzfläche: 18.875394444444446 m2
+Durchschnittliches Nutzgewicht: 2828.3007407407404 kg
+Anzahl Fahrzeuge (Prognose): 11
+
+Beladene Fahrzeuge: 12x Lkw / 8x Pkw / 3x Motorrad / 5x Fahrrad
+Aktuelle Nutzfläche: 514.26615 m2
+Aktuelles Nutzgewicht: 76625.12 kg
+Durchschnittliche Nutzfläche: 18.366648214285714 m2
+Durchschnittliches Nutzgewicht: 2736.6114285714284 kg
+Anzahl Fahrzeuge (Prognose): 11
+
+Beladene Fahrzeuge: 12x Lkw / 9x Pkw / 3x Motorrad / 5x Fahrrad
+Aktuelle Nutzfläche: 515.75355 m2
+Aktuelles Nutzgewicht: 77854.7 kg
+Durchschnittliche Nutzfläche: 17.784605172413794 m2
+Durchschnittliches Nutzgewicht: 2684.6448275862067 kg
+Anzahl Fahrzeuge (Prognose): 11
+
+Beladene Fahrzeuge: 12x Lkw / 10x Pkw / 3x Motorrad / 5x Fahrrad
+Aktuelle Nutzfläche: 518.75055 m2
+Aktuelles Nutzgewicht: 78804.26 kg
+Durchschnittliche Nutzfläche: 17.291684999999998 m2
+Durchschnittliches Nutzgewicht: 2626.8086666666663 kg
+Anzahl Fahrzeuge (Prognose): 11
+
+Beladene Fahrzeuge: 12x Lkw / 10x Pkw / 4x Motorrad / 5x Fahrrad
+Aktuelle Nutzfläche: 523.0368 m2
+Aktuelles Nutzgewicht: 78947.95999999999 kg
+Durchschnittliche Nutzfläche: 16.872154838709676 m2
+Durchschnittliches Nutzgewicht: 2546.708387096774 kg
+Anzahl Fahrzeuge (Prognose): 11
+
+Beladene Fahrzeuge: 13x Lkw / 10x Pkw / 4x Motorrad / 5x Fahrrad
+Aktuelle Nutzfläche: 539.5887 m2
+Aktuelles Nutzgewicht: 85226.40999999999 kg
+Durchschnittliche Nutzfläche: 16.862146875 m2
+Durchschnittliches Nutzgewicht: 2663.3253124999997 kg
+Anzahl Fahrzeuge (Prognose): 10
+
+Beladene Fahrzeuge: 13x Lkw / 11x Pkw / 4x Motorrad / 5x Fahrrad
+Aktuelle Nutzfläche: 550.7577 m2
+Aktuelles Nutzgewicht: 86660.95999999999 kg
+Durchschnittliche Nutzfläche: 16.68962727272727 m2
+Durchschnittliches Nutzgewicht: 2626.089696969697 kg
+Anzahl Fahrzeuge (Prognose): 10
+
+Beladene Fahrzeuge: 13x Lkw / 11x Pkw / 4x Motorrad / 6x Fahrrad
+Aktuelle Nutzfläche: 551.7669 m2
+Aktuelles Nutzgewicht: 86692.92 kg
+Durchschnittliche Nutzfläche: 16.228438235294117 m2
+Durchschnittliches Nutzgewicht: 2549.791764705882 kg
+Anzahl Fahrzeuge (Prognose): 10
+
+Beladene Fahrzeuge: 13x Lkw / 11x Pkw / 5x Motorrad / 6x Fahrrad
+Aktuelle Nutzfläche: 557.47515 m2
+Aktuelles Nutzgewicht: 86774.78 kg
+Durchschnittliche Nutzfläche: 15.927861428571427 m2
+Durchschnittliches Nutzgewicht: 2479.2794285714285 kg
+Anzahl Fahrzeuge (Prognose): 10
+
+Beladene Fahrzeuge: 13x Lkw / 11x Pkw / 5x Motorrad / 7x Fahrrad
+Aktuelle Nutzfläche: 559.5283499999999 m2
+Aktuelles Nutzgewicht: 86822.43 kg
+Durchschnittliche Nutzfläche: 15.542454166666666 m2
+Durchschnittliches Nutzgewicht: 2411.7341666666666 kg
+Anzahl Fahrzeuge (Prognose): 10
+
+Beladene Fahrzeuge: 14x Lkw / 11x Pkw / 5x Motorrad / 7x Fahrrad
+Aktuelle Nutzfläche: 560.8849499999999 m2
+Aktuelles Nutzgewicht: 97832.43 kg
+Durchschnittliche Nutzfläche: 15.1590527027027 m2
+Durchschnittliches Nutzgewicht: 2644.1197297297294 kg
+Anzahl Fahrzeuge (Prognose): 10
+
+Beladene Fahrzeuge: 15x Lkw / 11x Pkw / 5x Motorrad / 7x Fahrrad
+Aktuelle Nutzfläche: 590.4199499999999 m2
+Aktuelles Nutzgewicht: 101718.2 kg
+Durchschnittliche Nutzfläche: 15.537367105263154 m2
+Durchschnittliches Nutzgewicht: 2676.794736842105 kg
+Anzahl Fahrzeuge (Prognose): 9
+
+Beladene Fahrzeuge: 16x Lkw / 11x Pkw / 5x Motorrad / 7x Fahrrad
+Aktuelle Nutzfläche: 623.3074499999999 m2
+Aktuelles Nutzgewicht: 105943.75 kg
+Durchschnittliche Nutzfläche: 15.982242307692305 m2
+Durchschnittliches Nutzgewicht: 2716.50641025641 kg
+Anzahl Fahrzeuge (Prognose): 9
+
+Beladene Fahrzeuge: 16x Lkw / 11x Pkw / 5x Motorrad / 8x Fahrrad
+Aktuelle Nutzfläche: 626.7577499999999 m2
+Aktuelles Nutzgewicht: 106011.06 kg
+Durchschnittliche Nutzfläche: 15.668943749999997 m2
+Durchschnittliches Nutzgewicht: 2650.2765 kg
+Anzahl Fahrzeuge (Prognose): 9
+
+Beladene Fahrzeuge: 16x Lkw / 11x Pkw / 5x Motorrad / 9x Fahrrad
+Aktuelle Nutzfläche: 631.3094999999998 m2
+Aktuelles Nutzgewicht: 106089.27 kg
+Durchschnittliche Nutzfläche: 15.397792682926825 m2
+Durchschnittliches Nutzgewicht: 2587.5431707317075 kg
+Anzahl Fahrzeuge (Prognose): 9
+
+Beladene Fahrzeuge: 17x Lkw / 11x Pkw / 5x Motorrad / 9x Fahrrad
+Aktuelle Nutzfläche: 654.0452999999999 m2
+Aktuelles Nutzgewicht: 116631.94 kg
+Durchschnittliche Nutzfläche: 15.57250714285714 m2
+Durchschnittliches Nutzgewicht: 2776.9509523809525 kg
+Anzahl Fahrzeuge (Prognose): 9
+
+Beladene Fahrzeuge: 17x Lkw / 11x Pkw / 5x Motorrad / 10x Fahrrad
+Aktuelle Nutzfläche: 658.1449499999999 m2
+Aktuelles Nutzgewicht: 116712.19 kg
+Durchschnittliche Nutzfläche: 15.305696511627904 m2
+Durchschnittliches Nutzgewicht: 2714.236976744186 kg
+Anzahl Fahrzeuge (Prognose): 9
+
+Beladene Fahrzeuge: 18x Lkw / 11x Pkw / 5x Motorrad / 10x Fahrrad
+Aktuelle Nutzfläche: 694.6805999999999 m2
+Aktuelles Nutzgewicht: 124373.31 kg
+Durchschnittliche Nutzfläche: 15.788195454545452 m2
+Durchschnittliches Nutzgewicht: 2826.6661363636363 kg
+Anzahl Fahrzeuge (Prognose): 8
+
+Beladene Fahrzeuge: 19x Lkw / 11x Pkw / 5x Motorrad / 10x Fahrrad
+Aktuelle Nutzfläche: 763.4975999999999 m2
+Aktuelles Nutzgewicht: 129218.91 kg
+Durchschnittliche Nutzfläche: 16.96661333333333 m2
+Durchschnittliches Nutzgewicht: 2871.5313333333334 kg
+Anzahl Fahrzeuge (Prognose): 8
+
+Beladene Fahrzeuge: 19x Lkw / 11x Pkw / 5x Motorrad / 11x Fahrrad
+Aktuelle Nutzfläche: 764.5783499999999 m2
+Aktuelles Nutzgewicht: 129268.38 kg
+Durchschnittliche Nutzfläche: 16.621268478260866 m2
+Durchschnittliches Nutzgewicht: 2810.1821739130437 kg
+Anzahl Fahrzeuge (Prognose): 8
+
+Beladene Fahrzeuge: 20x Lkw / 11x Pkw / 5x Motorrad / 11x Fahrrad
+Aktuelle Nutzfläche: 783.2596499999999 m2
+Aktuelles Nutzgewicht: 137121.96 kg
+Durchschnittliche Nutzfläche: 16.66509893617021 m2
+Durchschnittliches Nutzgewicht: 2917.4885106382976 kg
+Anzahl Fahrzeuge (Prognose): 8
+
+Beladene Fahrzeuge: 20x Lkw / 12x Pkw / 5x Motorrad / 11x Fahrrad
+Aktuelle Nutzfläche: 785.0537999999998 m2
+Aktuelles Nutzgewicht: 138297.75999999998 kg
+Durchschnittliche Nutzfläche: 16.355287499999996 m2
+Durchschnittliches Nutzgewicht: 2881.203333333333 kg
+Anzahl Fahrzeuge (Prognose): 8
+
+Beladene Fahrzeuge: 20x Lkw / 12x Pkw / 5x Motorrad / 12x Fahrrad
+Aktuelle Nutzfläche: 787.7491499999998 m2
+Aktuelles Nutzgewicht: 138333.71999999997 kg
+Durchschnittliche Nutzfläche: 16.07651326530612 m2
+Durchschnittliches Nutzgewicht: 2823.1371428571424 kg
+Anzahl Fahrzeuge (Prognose): 8
+
+Beladene Fahrzeuge: 20x Lkw / 13x Pkw / 5x Motorrad / 12x Fahrrad
+Aktuelle Nutzfläche: 797.9981999999998 m2
+Aktuelles Nutzgewicht: 139799.71999999997 kg
+Durchschnittliche Nutzfläche: 15.959963999999996 m2
+Durchschnittliches Nutzgewicht: 2795.9943999999996 kg
+Anzahl Fahrzeuge (Prognose): 8
+
+Beladene Fahrzeuge: 20x Lkw / 14x Pkw / 5x Motorrad / 12x Fahrrad
+Aktuelle Nutzfläche: 803.8994999999998 m2
+Aktuelles Nutzgewicht: 140213.33999999997 kg
+Durchschnittliche Nutzfläche: 15.762735294117642 m2
+Durchschnittliches Nutzgewicht: 2749.2811764705875 kg
+Anzahl Fahrzeuge (Prognose): 7
+
+Beladene Fahrzeuge: 21x Lkw / 14x Pkw / 5x Motorrad / 12x Fahrrad
+Aktuelle Nutzfläche: 808.5083999999997 m2
+Aktuelles Nutzgewicht: 143239.30999999997 kg
+Durchschnittliche Nutzfläche: 15.548238461538457 m2
+Durchschnittliches Nutzgewicht: 2754.602115384615 kg
+Anzahl Fahrzeuge (Prognose): 7
+
+Beladene Fahrzeuge: 21x Lkw / 14x Pkw / 6x Motorrad / 12x Fahrrad
+Aktuelle Nutzfläche: 811.9508999999997 m2
+Aktuelles Nutzgewicht: 143568.07999999996 kg
+Durchschnittliche Nutzfläche: 15.319828301886787 m2
+Durchschnittliches Nutzgewicht: 2708.8316981132066 kg
+Anzahl Fahrzeuge (Prognose): 7
+
+Beladene Fahrzeuge: 22x Lkw / 14x Pkw / 6x Motorrad / 12x Fahrrad
+Aktuelle Nutzfläche: 837.9736499999997 m2
+Aktuelles Nutzgewicht: 145336.06999999995 kg
+Durchschnittliche Nutzfläche: 15.51803055555555 m2
+Durchschnittliches Nutzgewicht: 2691.408703703703 kg
+Anzahl Fahrzeuge (Prognose): 7
+
+Beladene Fahrzeuge: 22x Lkw / 14x Pkw / 6x Motorrad / 13x Fahrrad
+Aktuelle Nutzfläche: 842.2702499999997 m2
+Aktuelles Nutzgewicht: 145364.80999999994 kg
+Durchschnittliche Nutzfläche: 15.314004545454539 m2
+Durchschnittliches Nutzgewicht: 2642.9965454545445 kg
+Anzahl Fahrzeuge (Prognose): 7
+
+Beladene Fahrzeuge: 23x Lkw / 14x Pkw / 6x Motorrad / 13x Fahrrad
+Aktuelle Nutzfläche: 955.1887499999997 m2
+Aktuelles Nutzgewicht: 147288.05999999994 kg
+Durchschnittliche Nutzfläche: 17.05694196428571 m2
+Durchschnittliches Nutzgewicht: 2630.1439285714273 kg
+Anzahl Fahrzeuge (Prognose): 7
+
+Beladene Fahrzeuge: 23x Lkw / 15x Pkw / 6x Motorrad / 13x Fahrrad
+Aktuelle Nutzfläche: 960.4357499999996 m2
+Aktuelles Nutzgewicht: 148885.65999999995 kg
+Durchschnittliche Nutzfläche: 16.849749999999993 m2
+Durchschnittliches Nutzgewicht: 2612.0291228070164 kg
+Anzahl Fahrzeuge (Prognose): 7
+
+Beladene Fahrzeuge: 24x Lkw / 15x Pkw / 6x Motorrad / 13x Fahrrad
+Aktuelle Nutzfläche: 967.6127999999997 m2
+Aktuelles Nutzgewicht: 162029.39999999994 kg
+Durchschnittliche Nutzfläche: 16.682979310344823 m2
+Durchschnittliches Nutzgewicht: 2793.6103448275853 kg
+Anzahl Fahrzeuge (Prognose): 6
+
+Beladene Fahrzeuge: 25x Lkw / 15x Pkw / 6x Motorrad / 13x Fahrrad
+Aktuelle Nutzfläche: 1011.3689999999997 m2
+Aktuelles Nutzgewicht: 172377.33999999994 kg
+Durchschnittliche Nutzfläche: 17.14184745762711 m2
+Durchschnittliches Nutzgewicht: 2921.6498305084733 kg
+Anzahl Fahrzeuge (Prognose): 6
+
+Beladene Fahrzeuge: 26x Lkw / 15x Pkw / 6x Motorrad / 13x Fahrrad
+Aktuelle Nutzfläche: 1067.0009999999997 m2
+Aktuelles Nutzgewicht: 176351.24999999994 kg
+Durchschnittliche Nutzfläche: 17.783349999999995 m2
+Durchschnittliches Nutzgewicht: 2939.187499999999 kg
+Anzahl Fahrzeuge (Prognose): 6
+
+Beladene Fahrzeuge: 27x Lkw / 15x Pkw / 6x Motorrad / 13x Fahrrad
+Aktuelle Nutzfläche: 1113.8600999999996 m2
+Aktuelles Nutzgewicht: 188119.60999999993 kg
+Durchschnittliche Nutzfläche: 18.260001639344257 m2
+Durchschnittliches Nutzgewicht: 3083.928032786884 kg
+Anzahl Fahrzeuge (Prognose): 5
+
+Beladene Fahrzeuge: 27x Lkw / 16x Pkw / 6x Motorrad / 13x Fahrrad
+Aktuelle Nutzfläche: 1118.6648999999998 m2
+Aktuelles Nutzgewicht: 189202.68999999992 kg
+Durchschnittliche Nutzfläche: 18.042982258064512 m2
+Durchschnittliches Nutzgewicht: 3051.6562903225795 kg
+Anzahl Fahrzeuge (Prognose): 5
+
+Beladene Fahrzeuge: 27x Lkw / 17x Pkw / 6x Motorrad / 13x Fahrrad
+Aktuelle Nutzfläche: 1128.9773999999998 m2
+Aktuelles Nutzgewicht: 190901.53999999992 kg
+Durchschnittliche Nutzfläche: 17.920276190476187 m2
+Durchschnittliches Nutzgewicht: 3030.1831746031735 kg
+Anzahl Fahrzeuge (Prognose): 5
+
+Beladene Fahrzeuge: 27x Lkw / 17x Pkw / 6x Motorrad / 14x Fahrrad
+Aktuelle Nutzfläche: 1132.2143999999998 m2
+Aktuelles Nutzgewicht: 191004.91999999993 kg
+Durchschnittliche Nutzfläche: 17.690849999999998 m2
+Durchschnittliches Nutzgewicht: 2984.451874999999 kg
+Anzahl Fahrzeuge (Prognose): 5
+
+Beladene Fahrzeuge: 27x Lkw / 18x Pkw / 6x Motorrad / 14x Fahrrad
+Aktuelle Nutzfläche: 1132.2263999999998 m2
+Aktuelles Nutzgewicht: 192237.29999999993 kg
+Durchschnittliche Nutzfläche: 17.41886769230769 m2
+Durchschnittliches Nutzgewicht: 2957.496923076922 kg
+Anzahl Fahrzeuge (Prognose): 5
+
+Beladene Fahrzeuge: 27x Lkw / 18x Pkw / 6x Motorrad / 15x Fahrrad
+Aktuelle Nutzfläche: 1132.2754499999999 m2
+Aktuelles Nutzgewicht: 192277.64999999994 kg
+Durchschnittliche Nutzfläche: 17.155688636363635 m2
+Durchschnittliches Nutzgewicht: 2913.297727272726 kg
+Anzahl Fahrzeuge (Prognose): 5
+
+Beladene Fahrzeuge: 27x Lkw / 18x Pkw / 6x Motorrad / 16x Fahrrad
+Aktuelle Nutzfläche: 1135.2281999999998 m2
+Aktuelles Nutzgewicht: 192372.35999999993 kg
+Durchschnittliche Nutzfläche: 16.943704477611938 m2
+Durchschnittliches Nutzgewicht: 2871.2292537313424 kg
+Anzahl Fahrzeuge (Prognose): 5
+
+Beladene Fahrzeuge: 27x Lkw / 19x Pkw / 6x Motorrad / 16x Fahrrad
+Aktuelle Nutzfläche: 1143.7469999999998 m2
+Aktuelles Nutzgewicht: 193769.23999999993 kg
+Durchschnittliche Nutzfläche: 16.81980882352941 m2
+Durchschnittliches Nutzgewicht: 2849.5476470588223 kg
+Anzahl Fahrzeuge (Prognose): 5
+
+Beladene Fahrzeuge: 28x Lkw / 19x Pkw / 6x Motorrad / 16x Fahrrad
+Aktuelle Nutzfläche: 1190.3057999999999 m2
+Aktuelles Nutzgewicht: 195885.08999999994 kg
+Durchschnittliche Nutzfläche: 17.25080869565217 m2
+Durchschnittliches Nutzgewicht: 2838.914347826086 kg
+Anzahl Fahrzeuge (Prognose): 5
+
+Beladene Fahrzeuge: 28x Lkw / 19x Pkw / 6x Motorrad / 17x Fahrrad
+Aktuelle Nutzfläche: 1191.9410999999998 m2
+Aktuelles Nutzgewicht: 195928.87999999995 kg
+Durchschnittliche Nutzfläche: 17.02773 m2
+Durchschnittliches Nutzgewicht: 2798.983999999999 kg
+Anzahl Fahrzeuge (Prognose): 5
+
+Beladene Fahrzeuge: 28x Lkw / 20x Pkw / 6x Motorrad / 17x Fahrrad
+Aktuelle Nutzfläche: 1194.5384999999999 m2
+Aktuelles Nutzgewicht: 197517.44999999995 kg
+Durchschnittliche Nutzfläche: 16.824485915492957 m2
+Durchschnittliches Nutzgewicht: 2781.935915492957 kg
+Anzahl Fahrzeuge (Prognose): 5
+
+Beladene Fahrzeuge: 29x Lkw / 20x Pkw / 6x Motorrad / 17x Fahrrad
+Aktuelle Nutzfläche: 1215.885 m2
+Aktuelles Nutzgewicht: 208143.62999999995 kg
+Durchschnittliche Nutzfläche: 16.887291666666666 m2
+Durchschnittliches Nutzgewicht: 2890.883749999999 kg
+Anzahl Fahrzeuge (Prognose): 4
+
+Beladene Fahrzeuge: 29x Lkw / 20x Pkw / 6x Motorrad / 18x Fahrrad
+Aktuelle Nutzfläche: 1216.1985 m2
+Aktuelles Nutzgewicht: 208196.16999999995 kg
+Durchschnittliche Nutzfläche: 16.660253424657533 m2
+Durchschnittliches Nutzgewicht: 2852.002328767123 kg
+Anzahl Fahrzeuge (Prognose): 4
+
+Beladene Fahrzeuge: 29x Lkw / 20x Pkw / 6x Motorrad / 19x Fahrrad
+Aktuelle Nutzfläche: 1217.8301999999999 m2
+Aktuelles Nutzgewicht: 208258.79999999996 kg
+Durchschnittliche Nutzfläche: 16.457164864864865 m2
+Durchschnittliches Nutzgewicht: 2814.3081081081077 kg
+Anzahl Fahrzeuge (Prognose): 4
+
+Beladene Fahrzeuge: 30x Lkw / 20x Pkw / 6x Motorrad / 19x Fahrrad
+Aktuelle Nutzfläche: 1237.7633999999998 m2
+Aktuelles Nutzgewicht: 218373.92999999996 kg
+Durchschnittliche Nutzfläche: 16.503511999999997 m2
+Durchschnittliches Nutzgewicht: 2911.6523999999995 kg
+Anzahl Fahrzeuge (Prognose): 4
+
+Beladene Fahrzeuge: 30x Lkw / 20x Pkw / 6x Motorrad / 20x Fahrrad
+Aktuelle Nutzfläche: 1244.7248999999997 m2
+Aktuelles Nutzgewicht: 218446.11999999997 kg
+Durchschnittliche Nutzfläche: 16.377959210526313 m2
+Durchschnittliches Nutzgewicht: 2874.2910526315786 kg
+Anzahl Fahrzeuge (Prognose): 4
+
+Beladene Fahrzeuge: 30x Lkw / 20x Pkw / 6x Motorrad / 21x Fahrrad
+Aktuelle Nutzfläche: 1249.9994999999997 m2
+Aktuelles Nutzgewicht: 218485.16999999995 kg
+Durchschnittliche Nutzfläche: 16.233759740259735 m2
+Durchschnittliches Nutzgewicht: 2837.46974025974 kg
+Anzahl Fahrzeuge (Prognose): 4
+
+Beladene Fahrzeuge: 30x Lkw / 20x Pkw / 7x Motorrad / 21x Fahrrad
+Aktuelle Nutzfläche: 1251.9946499999996 m2
+Aktuelles Nutzgewicht: 218766.89999999997 kg
+Durchschnittliche Nutzfläche: 16.051213461538456 m2
+Durchschnittliches Nutzgewicht: 2804.703846153846 kg
+Anzahl Fahrzeuge (Prognose): 4
+
+Beladene Fahrzeuge: 30x Lkw / 21x Pkw / 7x Motorrad / 21x Fahrrad
+Aktuelle Nutzfläche: 1258.8088499999997 m2
+Aktuelles Nutzgewicht: 219720.14999999997 kg
+Durchschnittliche Nutzfläche: 15.934289240506326 m2
+Durchschnittliches Nutzgewicht: 2781.267721518987 kg
+Anzahl Fahrzeuge (Prognose): 4
+
+Beladene Fahrzeuge: 30x Lkw / 22x Pkw / 7x Motorrad / 21x Fahrrad
+Aktuelle Nutzfläche: 1273.4257499999997 m2
+Aktuelles Nutzgewicht: 221000.93999999997 kg
+Durchschnittliche Nutzfläche: 15.917821874999996 m2
+Durchschnittliches Nutzgewicht: 2762.5117499999997 kg
+Anzahl Fahrzeuge (Prognose): 3
+
+Beladene Fahrzeuge: 30x Lkw / 22x Pkw / 7x Motorrad / 22x Fahrrad
+Aktuelle Nutzfläche: 1274.4305999999997 m2
+Aktuelles Nutzgewicht: 221099.61 kg
+Durchschnittliche Nutzfläche: 15.733711111111107 m2
+Durchschnittliches Nutzgewicht: 2729.6248148148147 kg
+Anzahl Fahrzeuge (Prognose): 3
+
+Beladene Fahrzeuge: 30x Lkw / 23x Pkw / 7x Motorrad / 22x Fahrrad
+Aktuelle Nutzfläche: 1284.0500999999997 m2
+Aktuelles Nutzgewicht: 222024.06 kg
+Durchschnittliche Nutzfläche: 15.659147560975606 m2
+Durchschnittliches Nutzgewicht: 2707.610487804878 kg
+Anzahl Fahrzeuge (Prognose): 3
+
+Beladene Fahrzeuge: 30x Lkw / 23x Pkw / 8x Motorrad / 22x Fahrrad
+Aktuelle Nutzfläche: 1284.4360499999998 m2
+Aktuelles Nutzgewicht: 222206.59 kg
+Durchschnittliche Nutzfläche: 15.475133132530118 m2
+Durchschnittliches Nutzgewicht: 2677.187831325301 kg
+Anzahl Fahrzeuge (Prognose): 3
+
+Beladene Fahrzeuge: 30x Lkw / 24x Pkw / 8x Motorrad / 22x Fahrrad
+Aktuelle Nutzfläche: 1287.8554499999998 m2
+Aktuelles Nutzgewicht: 222522.16 kg
+Durchschnittliche Nutzfläche: 15.331612499999997 m2
+Durchschnittliches Nutzgewicht: 2649.0733333333333 kg
+Anzahl Fahrzeuge (Prognose): 3
+
+Beladene Fahrzeuge: 30x Lkw / 25x Pkw / 8x Motorrad / 22x Fahrrad
+Aktuelle Nutzfläche: 1288.8602999999998 m2
+Aktuelles Nutzgewicht: 223347.41 kg
+Durchschnittliche Nutzfläche: 15.163062352941175 m2
+Durchschnittliches Nutzgewicht: 2627.6165882352943 kg
+Anzahl Fahrzeuge (Prognose): 3
+
+Beladene Fahrzeuge: 31x Lkw / 25x Pkw / 8x Motorrad / 22x Fahrrad
+Aktuelle Nutzfläche: 1381.0629 m2
+Aktuelles Nutzgewicht: 233789.92 kg
+Durchschnittliche Nutzfläche: 16.05887093023256 m2
+Durchschnittliches Nutzgewicht: 2718.4874418604654 kg
+Anzahl Fahrzeuge (Prognose): 3
+
+Beladene Fahrzeuge: 32x Lkw / 25x Pkw / 8x Motorrad / 22x Fahrrad
+Aktuelle Nutzfläche: 1462.4259 m2
+Aktuelles Nutzgewicht: 245723.26 kg
+Durchschnittliche Nutzfläche: 16.809493103448276 m2
+Durchschnittliches Nutzgewicht: 2824.405287356322 kg
+Anzahl Fahrzeuge (Prognose): 2
+
+Beladene Fahrzeuge: 32x Lkw / 25x Pkw / 9x Motorrad / 22x Fahrrad
+Aktuelle Nutzfläche: 1469.508 m2
+Aktuelles Nutzgewicht: 245941.29 kg
+Durchschnittliche Nutzfläche: 16.698954545454544 m2
+Durchschnittliches Nutzgewicht: 2794.7873863636364 kg
+Anzahl Fahrzeuge (Prognose): 2
+
+Beladene Fahrzeuge: 32x Lkw / 26x Pkw / 9x Motorrad / 22x Fahrrad
+Aktuelle Nutzfläche: 1470.5376 m2
+Aktuelles Nutzgewicht: 247115.35 kg
+Durchschnittliche Nutzfläche: 16.52289438202247 m2
+Durchschnittliches Nutzgewicht: 2776.576966292135 kg
+Anzahl Fahrzeuge (Prognose): 2
+
+Beladene Fahrzeuge: 32x Lkw / 27x Pkw / 9x Motorrad / 22x Fahrrad
+Aktuelle Nutzfläche: 1487.8806000000002 m2
+Aktuelles Nutzgewicht: 248839.56 kg
+Durchschnittliche Nutzfläche: 16.532006666666668 m2
+Durchschnittliches Nutzgewicht: 2764.884 kg
+Anzahl Fahrzeuge (Prognose): 2
+
+Beladene Fahrzeuge: 33x Lkw / 27x Pkw / 9x Motorrad / 22x Fahrrad
+Aktuelle Nutzfläche: 1493.3406000000002 m2
+Aktuelles Nutzgewicht: 257267.63999999998 kg
+Durchschnittliche Nutzfläche: 16.410336263736266 m2
+Durchschnittliches Nutzgewicht: 2827.116923076923 kg
+Anzahl Fahrzeuge (Prognose): 2
+
+Beladene Fahrzeuge: 33x Lkw / 28x Pkw / 9x Motorrad / 22x Fahrrad
+Aktuelle Nutzfläche: 1493.9976000000001 m2
+Aktuelles Nutzgewicht: 258868.62999999998 kg
+Durchschnittliche Nutzfläche: 16.23910434782609 m2
+Durchschnittliches Nutzgewicht: 2813.789456521739 kg
+Anzahl Fahrzeuge (Prognose): 2
+
+Beladene Fahrzeuge: 34x Lkw / 28x Pkw / 9x Motorrad / 22x Fahrrad
+Aktuelle Nutzfläche: 1532.5483500000003 m2
+Aktuelles Nutzgewicht: 266040.6 kg
+Durchschnittliche Nutzfläche: 16.479014516129034 m2
+Durchschnittliches Nutzgewicht: 2860.6516129032257 kg
+Anzahl Fahrzeuge (Prognose): 1
+
+Beladene Fahrzeuge: 35x Lkw / 28x Pkw / 9x Motorrad / 22x Fahrrad
+Aktuelle Nutzfläche: 1561.9744500000002 m2
+Aktuelles Nutzgewicht: 270728.49 kg
+Durchschnittliche Nutzfläche: 16.616749468085107 m2
+Durchschnittliches Nutzgewicht: 2880.090319148936 kg
+Anzahl Fahrzeuge (Prognose): 1
+
+Beladene Fahrzeuge: 35x Lkw / 28x Pkw / 9x Motorrad / 23x Fahrrad
+Aktuelle Nutzfläche: 1562.62245 m2
+Aktuelles Nutzgewicht: 270806.05 kg
+Durchschnittliche Nutzfläche: 16.448657368421053 m2
+Durchschnittliches Nutzgewicht: 2850.5899999999997 kg
+Anzahl Fahrzeuge (Prognose): 1
+
+Beladene Fahrzeuge: 35x Lkw / 28x Pkw / 9x Motorrad / 24x Fahrrad
+Aktuelle Nutzfläche: 1564.7626500000001 m2
+Aktuelles Nutzgewicht: 270870.79 kg
+Durchschnittliche Nutzfläche: 16.299610937500002 m2
+Durchschnittliches Nutzgewicht: 2821.5707291666663 kg
+Anzahl Fahrzeuge (Prognose): 1
+
+Beladene Fahrzeuge: 35x Lkw / 28x Pkw / 9x Motorrad / 25x Fahrrad
+Aktuelle Nutzfläche: 1565.82345 m2
+Aktuelles Nutzgewicht: 270938.97 kg
+Durchschnittliche Nutzfläche: 16.142509793814433 m2
+Durchschnittliches Nutzgewicht: 2793.1852577319587 kg
+Anzahl Fahrzeuge (Prognose): 1
+
+Beladene Fahrzeuge: 35x Lkw / 28x Pkw / 9x Motorrad / 26x Fahrrad
+Aktuelle Nutzfläche: 1566.17145 m2
+Aktuelles Nutzgewicht: 270963.81 kg
+Durchschnittliche Nutzfläche: 15.981341326530613 m2
+Durchschnittliches Nutzgewicht: 2764.9368367346938 kg
+Anzahl Fahrzeuge (Prognose): 1
+
+Beladene Fahrzeuge: 36x Lkw / 28x Pkw / 9x Motorrad / 26x Fahrrad
+Aktuelle Nutzfläche: 1650.00645 m2
+Aktuelles Nutzgewicht: 277806.54 kg
+Durchschnittliche Nutzfläche: 16.66673181818182 m2
+Durchschnittliches Nutzgewicht: 2806.1266666666666 kg
+Anzahl Fahrzeuge (Prognose): 1
+
+Beladene Fahrzeuge: 37x Lkw / 28x Pkw / 9x Motorrad / 26x Fahrrad
+Aktuelle Nutzfläche: 1669.42515 m2
+Aktuelles Nutzgewicht: 280304.0 kg
+Durchschnittliche Nutzfläche: 16.6942515 m2
+Durchschnittliches Nutzgewicht: 2803.04 kg
+Anzahl Fahrzeuge (Prognose): 0
+
+Beladene Fahrzeuge: 37x Lkw / 28x Pkw / 10x Motorrad / 26x Fahrrad
+Aktuelle Nutzfläche: 1677.12615 m2
+Aktuelles Nutzgewicht: 280646.3 kg
+Durchschnittliche Nutzfläche: 16.605209405940595 m2
+Durchschnittliches Nutzgewicht: 2778.676237623762 kg
+Anzahl Fahrzeuge (Prognose): 0
+
+Beladene Fahrzeuge: 37x Lkw / 28x Pkw / 10x Motorrad / 27x Fahrrad
+Aktuelle Nutzfläche: 1677.2761500000001 m2
+Aktuelles Nutzgewicht: 280677.75 kg
+Durchschnittliche Nutzfläche: 16.443883823529415 m2
+Durchschnittliches Nutzgewicht: 2751.7426470588234 kg
+Anzahl Fahrzeuge (Prognose): 0
+
+Beladene Fahrzeuge: 37x Lkw / 28x Pkw / 10x Motorrad / 28x Fahrrad
+Aktuelle Nutzfläche: 1678.17405 m2
+Aktuelles Nutzgewicht: 280764.12 kg
+Durchschnittliche Nutzfläche: 16.292951941747575 m2
+Durchschnittliches Nutzgewicht: 2725.8652427184466 kg
+Anzahl Fahrzeuge (Prognose): 0
+
+Beladene Fahrzeuge: 38x Lkw / 28x Pkw / 10x Motorrad / 28x Fahrrad
+Aktuelle Nutzfläche: 1758.6003 m2
+Aktuelles Nutzgewicht: 293663.82 kg
+Durchschnittliche Nutzfläche: 16.90961826923077 m2
+Durchschnittliches Nutzgewicht: 2823.690576923077 kg
+Anzahl Fahrzeuge (Prognose): 0
+
+Beladene Fahrzeuge: 38x Lkw / 28x Pkw / 10x Motorrad / 28x Fahrrad
+Aktuelle Nutzfläche: 1758.6003 m2
+Aktuelles Nutzgewicht: 293663.82 kg
+Durchschnittliche Nutzfläche: 16.90961826923077 m2
+Durchschnittliches Nutzgewicht: 2823.690576923077 kg
+Anzahl Fahrzeuge (Prognose): 0
+
+BUILD SUCCESSFUL (total time: 0 seconds)

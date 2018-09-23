@@ -1,0 +1,7 @@
+@echo off
+rem Programmtest SummenberechnungTesten
+echo Regressionstest von %1 und %2
+java summenberechnungtesten/%1 bed1ein.txt bed1aus.txt
+java summenberechnungtesten/%2 bed1ein.txt bed2aus.txt
+fc bed1aus.txt bed2aus.txt > vergleich.txt
+more vergleich.txt

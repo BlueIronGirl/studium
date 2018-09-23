@@ -1,0 +1,15 @@
+Das Ergebnis der Suche ist: -1, also wurde die Stadt nicht gefunden.
+Begründung: 
+Die binäre Suche kann nur auf einem Feld funktionieren, dessen Daten
+sortiert vorliegen. Durch das Hinzufügen der Stadt Frankfurt ist dies nicht mehr der Fall:
+Berlin
+Hamburg
+München
+Frankfurt
+
+Daher kann diese Stadt nicht mehr gefunden werden, da das zu durchsuchende Feld rekursiv
+halbiert wird. 
+Im ersten Schritt wäre also der zu untersuchende Wert die Stadt Hamburg.
+Da Frankfurt nach lexikografischer Ordnung vor Hamburg liegen müsste, wird die Suche
+in der linken Hälfte fortgeführt. Dort bleibt lediglich die Stadt Berlin übrig.
+Das restliche Feld wird nicht weiter untersucht und die Stadt Frankfurt auch nicht gefunden.

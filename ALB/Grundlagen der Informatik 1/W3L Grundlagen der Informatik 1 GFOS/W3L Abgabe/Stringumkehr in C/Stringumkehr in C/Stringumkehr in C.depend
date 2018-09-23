@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1446215458 source:d:\alice\code blocks daten\stringumkehr in c\stringumkehr in c\main.c
+	<stdio.h>
+	<stdlib.h>
+	"stringumkehr.h"
+
+1443810713 d:\alice\code blocks daten\stringumkehr in c\stringumkehr in c\stringumkehr.h
+
+1443811734 source:d:\alice\code blocks daten\stringumkehr in c\stringumkehr in c\stringumkehr.c
+	<stdio.h>
+	"stringumkehr.h"
+
+1446215560 source:d:\java 5.0\java 5.0 netbeansprojects\w3l\w3l abgabe\stringumkehr in c\stringumkehr in c\main.c
+	<stdio.h>
+	<stdlib.h>
+	"stringumkehr.h"
+
+1443810713 d:\java 5.0\java 5.0 netbeansprojects\w3l\w3l abgabe\stringumkehr in c\stringumkehr in c\stringumkehr.h
+
+1443811734 source:d:\java 5.0\java 5.0 netbeansprojects\w3l\w3l abgabe\stringumkehr in c\stringumkehr in c\stringumkehr.c
+	<stdio.h>
+	"stringumkehr.h"
+

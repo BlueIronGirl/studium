@@ -1,0 +1,82 @@
+Anzahl Testfaelle: 10
+Testfall 0 Wert Stunden Minuten Sekunden
+0.0
+0.0
+0.0
+0.0
+Testfall 1 Wert Stunden Minuten Sekunden
+3600.0
+1.0
+0.0
+0.0
+Testfall 2 Wert Stunden Minuten Sekunden
+60.0
+0.016666666666666666
+0.0
+0.0
+Testfall 3 Wert Stunden Minuten Sekunden
+1.0
+2.777777777777778E-4
+0.0
+0.0
+Testfall 4 Wert Stunden Minuten Sekunden
+5600.0
+1.5555555555555556
+0.0
+0.0
+Testfall 5 Wert Stunden Minuten Sekunden
+-5600.0
+-1.5555555555555556
+0.0
+0.0
+Testfall 6 Wert Stunden Minuten Sekunden
+1002.0
+0.2783333333333333
+0.0
+0.0
+Testfall 7 Wert Stunden Minuten Sekunden
+55.0
+0.015277777777777777
+0.0
+0.0
+Anzahl Testfaelle: 10
+Testfall 0 Wert Stunden Minuten Sekunden
+0.0
+0.0
+0.0
+0.0
+Testfall 1 Wert Stunden Minuten Sekunden
+3600.0
+1.0
+0.0
+0.0
+Testfall 2 Wert Stunden Minuten Sekunden
+60.0
+0.016666666666666666
+0.0
+0.0
+Testfall 3 Wert Stunden Minuten Sekunden
+1.0
+2.777777777777778E-4
+0.0
+0.0
+Testfall 4 Wert Stunden Minuten Sekunden
+5600.0
+1.5555555555555556
+0.0
+0.0
+Testfall 5 Wert Stunden Minuten Sekunden
+-5600.0
+-1.5555555555555556
+0.0
+0.0
+Testfall 6 Wert Stunden Minuten Sekunden
+1002.0
+0.2783333333333333
+0.0
+0.0
+Testfall 7 Wert Stunden Minuten Sekunden
+55.0
+0.015277777777777777
+0.0
+0.0

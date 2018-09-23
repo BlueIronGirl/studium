@@ -1,0 +1,134 @@
+In einer Klasse Termin soll ein Zeitpunkt (Jahr, Monat, Tag) und eine Beschreibung dazu gespeichert werden.
+ Hierfür muss die Klasse Termin zwei Attribute besitzen, so dass der Zeitpunkt und die Beschreibung geeignet gespeichert werden können .
+ Die Zeitpunkte verschiedener Termine sollen miteinander verglichen werden können.
+ Diese Funktion soll die Klasse Termin bereitstellen, so dass jedes Objekt einer Klasse Termin überprüfen kann, ob ein anderes Termin-Objekt
+zu einem früheren
+zum selben oder
+zu einem späteren Zeitpunkt
+stattfindet. 
+Eine Klasse TerminplanerUI soll mehrere Termindaten einlesen und sortiert nach dem Datum speichern. Es dürfen nur zukünftige Termine eingegeben werden. 
+Auf Anforderung sollen alle im Terminplaner enthaltenen Termine aufgelistet werden.
+ Standardmäßig ist im Terminplaner ein persönlicher Termin von Ihnen enthalten, der in der Beschreibung Ihren Namen und Vornamen speichert, dieser wird nicht über die Konsole eingelesen. 
+ Beispiel: Es wird über die Konsole ein Treffen mit Hans eingelesen. Das Treffen findet am 15.12.2020 statt. Der Termin wird im Terminplaner gespeichert. Anschließend wird ein weiterer Termin eingelesen.
+ Findet der zweite Termin zu einem früheren Zeitpunkt statt als das Treffen mit Hans, wird der Termin vor diesem im Kalender gespeichert.
+ Wenn er zu einem späteren Zeitpunkt stattfindet dahinter.
+ Wie die Ein- / Ausgaben auf der Konsole aussehen sollen, finden Sie beim Lösungshinweis 1.
+ Sie können zum Einlesen der Werte die Klasse Console (Paket inout ) verwenden. 
+ Folgende Aufgaben sind zu erledigen: 
+ a In dem Java-API nach einer Klasse suchen 
+	/1/ Suchen Sie in dem Java-API nach einer geeigneten Klasse, mit deren Hilfe Sie Datumswerte speichern können, und geben Sie diese an. 
+	/2/ Beschreiben Sie mit eigenen Worten, welche Operationen Sie wie verwenden möchten. (max. 15 Punkte)
+	Hinweis: Wenn Sie a nicht lösen können, überlegen Sie sich bitte eine eigene geeignete Datenstruktur zur Speicherung des Datums und verwenden diese für die folgenden Teilaufgaben. 
+ b Klassendiagramm zeichnen Zeichnen Sie ein Klassendiagramm, das die folgenden Klassen UML-konform darstellt:
+	/1/ Die Klasse Termin, die den in der Aufgabenstellung aufgeführten Anforderungen genügt. Führen Sie alle Attribute und Operationen mit Angabe von Typen auf, die Ihre Klasse Termin besitzt. 
+	/2/ Die Klasse TerminplanerUI, die den in der Aufgabenstellung aufgeführten Anforderungen genügt. Führen Sie alle Attribute und Operationen mit Angabe von Typen auf, die Ihre Klasse TerminplanerUI besitzt.
+	Sie können die Objekte per Hand oder mit einem Grafikprogramm zeichnen. Im ersten Fall scannen Sie die Handzeichnung bitte ein, im zweiten Fall machen Sie bitte einen Bildschirmabzug und speichern das Ergebnis als gif-Datei oder png-Datei.
+	Ihre Datei muss außerdem Ihren Namen und das Erstellungsdatum enthalten. (max. 15 Punkte) 
+ c Programmieren Sie eine Klasse Termin, die als Attribute das Datum (Jahr, Monat, Tag) und eine Beschreibung speichern kann und den oben aufgeführten Anforderungen genügt. 
+   Überlegen Sie sich eine eigene geeignete Datenstruktur zur Speicherung des Datums. Dokumentieren Sie jede Operation mit Kommentaren. (max. 10 Punkte) 
+ d Programmieren Sie eine Klasse TerminplanerUI, die den oben aufgeführten Anforderungen genügt und die folgende Funktionalitäten aufweist:
+	/1/: Bei Start wird auf der Konsole folgendes Menü angezeigt:
+-----------------------------------------------
+Bitte wählen Sie zwischen folgenden Optionen:
+
+Neuer Termin: 1
+Termine anzeigen: 2
+Anwendung beenden: 3
+-----------------------------------------------
+Gibt der Benutzer eine 1 ein, folgt /3/. Gibt er eine 2 ein, folgt /4/. Gibt er eine 3 ein, wird der Terminplaner beendet. Gibt der Benutzer einen anderen Wert ein, soll ein Hinweis auf der Konsole erscheinen und erneut das Menü angezeigt werden. 
+(max. 10 Punkte) /3/: Gibt der Benutzer eine 1 ein, wird er zur Eingabe seiner Termindaten aufgefordert (Datum, Beschreibung). Gibt der Benutzer falsche Werte ein, soll ein Hinweis auf der Konsole erscheinen und erneut das Menü aus /2/ angezeigt werden.
+ Sind die Werte korrekt wird ein neuer Termin angelegt und in einer geeigneten Datenstruktur in der Klasse Terminplaner sortiert nach Datum gespeichert. (max. 40 Punkte)
+ /4/: Gibt der Benutzer eine 2 ein, werden alle bereits eingegebenen Termine in der Reihenfolge ausgegeben, wie Sie im Terminplaner gespeichert wurden. Dokumentieren Sie jede Operation mit Kommentaren. (max. 10 Punkte)
+
+-----------------------------------------------
+Bitte wählen Sie zwischen folgenden Optionen:
+
+Neuer Termin: 1
+Termine anzeigen: 2
+Anwendung beenden: 3
+-----------------------------------------------
+neuer Termin
+Keine gültige Eingabe.
+-----------------------------------------------
+Bitte wählen Sie zwischen folgenden Optionen:
+
+Neuer Termin: 1
+Termine anzeigen: 2
+Anwendung beenden: 3
+-----------------------------------------------
+1
+Bitte geben Sie den Termin ein: 
+Jahr:
+2020
+Monat:
+12
+Tag:
+5
+Terminbeschreibung:
+Treffen mit Hans
+-----------------------------------------------
+Bitte wählen Sie zwischen folgenden Optionen:
+
+Neuer Termin: 1
+Termine anzeigen: 2
+Anwendung beenden: 3
+-----------------------------------------------
+1
+Bitte geben Sie den Termin ein: 
+Jahr:
+2020
+Monat:
+5
+Tag:
+3
+Terminbeschreibung:
+Treffen mit Max
+-----------------------------------------------
+Bitte wählen Sie zwischen folgenden Optionen:
+
+Neuer Termin: 1
+Termine anzeigen: 2
+Anwendung beenden: 3
+-----------------------------------------------
+1
+Bitte geben Sie den Termin ein: 
+Jahr:
+1989
+Monat:
+11
+Tag:
+9
+Terminbeschreibung:
+Mauerfall
+Termin liegt in der Vergangenheit.
+-----------------------------------------------
+Bitte wählen Sie zwischen folgenden Optionen:
+
+Neuer Termin: 1
+Termine anzeigen: 2
+Anwendung beenden: 3
+-----------------------------------------------
+2
+Termin: Nr. 1
+Datum: 3.MAY.2020
+Beschreibung: Treffen mit Max
+
+Termin: Nr. 2
+Datum: 5.DECEMBER.2020
+Beschreibung: Treffen mit Hans
+
+Termin: Nr. 3
+Datum: 15.DECEMBER.2020
+Beschreibung: Mein Name ist Martina Mustermann.
+
+-----------------------------------------------
+Bitte wählen Sie zwischen folgenden Optionen:
+
+Neuer Termin: 1
+Termine anzeigen: 2
+Anwendung beenden: 3
+-----------------------------------------------
+3
+-----------------------------------------------
+Die Anwendung wurde beendet.
+-----------------------------------------------

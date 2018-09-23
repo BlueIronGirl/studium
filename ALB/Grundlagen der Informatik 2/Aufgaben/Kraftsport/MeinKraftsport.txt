@@ -1,0 +1,227 @@
+MeinKraftsport Alice Bedow 17.12.15
+Aufgabe c
+Bei meiner Speicherung nutze ich die Serialisierung mittels des Byte-Stroms.
+Der Nachteil bei dieser Serialisierungsform ist, dass der erzeugte Byte-Strom für einen Menschen schwer
+lesbar ist. Durch das Konzept der Serialisierung können Objekte einfach gespeichert werden und durch
+die Deserialisierung wieder ausgelesen werden.
+Im Gegensatz zum XML-Format kann auf die Transformation in eine JavaBean-Klasse verzichtet werden,
+bei welcher für jedes Attribut eine get- und eine set-Methode erzeugt werden müsste. Außerdem müssen
+die Klassen public sein und einen Standardkonstruktor besitzen. Der Vorteil der Nutzung des
+XML-Formats wären die gut lesbaren serialisierten Objekte.
+
+
+Aufgabe d
+Gewichte von 0 bis 500 Pfund (die Gewichte bewegen sich von 0 bis 500 Pfund - 1 Pfund = 500 g): 0 <= gewicht <= 500
+in Schritten von jeweils 2 Pfund, z.B. 0,2,4,6 usw.
+Tage 0 bis 365: 1 <= tag <= 365
+
+ 
+ 
+
+Gültige Äquivalenzklassen	Ungültige Äquivalenzklassen:	untere Grenze	obere Grenze	OG der ungültigen Äqui.-klasse	UG der ungültigen Äqui.-klasse	
+1) 0 <= gewicht <= 500		2) gewicht < 0						0				500				-1								501
+							3) gewicht > 500
+4) 1 <= tag <= 365			5) tag < 1							1				365				0								366
+							6) tag > 365
+
+Testfälle					A		B		C		D		E		F		G
+getestete Äqui.-Klassen		1U, 4U	1O, 4O	2O,4U	3U,4O	1U,5O	1O,6U					
+gewicht						0		500		-1		501		0		500		3
+tag							1		365		1		365		0		366		1
+Speicherung(j/n)?			j		j		n		n		n		n		n
+
+Testdurchlauf
+run:
+Bitte Funktion auswaehlen:
+1: Trainingstag erfassen
+2: Liste aller Trainingstage
+3: Programm beenden und Daten speichern
+Abbruch: 9
+Bitte Ziffer 1,2,3 oder 9 eingeben: 
+2
+Tag	Gewichte			Gesamtgewicht	Durchschnittsgewicht
+1 148 112 182 126 52 116 192 96 52 0 1076 192
+10 148 112 182 126 52 116 192 96 52 162 1238 192
+305 148 112 182 126 52 116 192 96 52 180 1256 192
+306 148 112 182 126 52 116 192 96 52 180 1256 192
+308 148 112 182 126 52 116 192 96 52 190 1266 192
+310 148 112 182 126 52 116 192 96 52 190 1266 192
+311 148 112 182 126 52 116 192 96 52 200 1276 200
+312 148 112 182 126 52 116 192 96 52 210 1286 210
+Anzahl Trainingstage: 8
+Durchschnittsgewicht aller Trainingstage: 195.25
+Max Durchschnittsgewicht: 210
+Min Durchschnittsgewicht: 192
+Tendenz aller Trainingstage +
+Bitte Funktion auswaehlen:
+1: Trainingstag erfassen
+2: Liste aller Trainingstage
+3: Programm beenden und Daten speichern
+Abbruch: 9
+Bitte Ziffer 1,2,3 oder 9 eingeben: 
+1
+Geben Sie bitte den Tag des Jahres und anschl. alle 10 Gewichte, jeweils getrennt durch ein Leerzeichen ein:
+1 148 112 182 126 52 116 192 96 52 0
+Trainingstag gespeichert.
+Bitte Funktion auswaehlen:
+1: Trainingstag erfassen
+2: Liste aller Trainingstage
+3: Programm beenden und Daten speichern
+Abbruch: 9
+Bitte Ziffer 1,2,3 oder 9 eingeben: 
+2
+Tag	Gewichte			Gesamtgewicht	Durchschnittsgewicht
+1 148 112 182 126 52 116 192 96 52 0 1076 192
+1 148 112 182 126 52 116 192 96 52 0 1076 192
+10 148 112 182 126 52 116 192 96 52 162 1238 192
+305 148 112 182 126 52 116 192 96 52 180 1256 192
+306 148 112 182 126 52 116 192 96 52 180 1256 192
+308 148 112 182 126 52 116 192 96 52 190 1266 192
+310 148 112 182 126 52 116 192 96 52 190 1266 192
+311 148 112 182 126 52 116 192 96 52 200 1276 200
+312 148 112 182 126 52 116 192 96 52 210 1286 210
+Anzahl Trainingstage: 9
+Durchschnittsgewicht aller Trainingstage: 194.889
+Max Durchschnittsgewicht: 210
+Min Durchschnittsgewicht: 192
+Tendenz aller Trainingstage +
+Bitte Funktion auswaehlen:
+1: Trainingstag erfassen
+2: Liste aller Trainingstage
+3: Programm beenden und Daten speichern
+Abbruch: 9
+Bitte Ziffer 1,2,3 oder 9 eingeben: 
+1
+Geben Sie bitte den Tag des Jahres und anschl. alle 10 Gewichte, jeweils getrennt durch ein Leerzeichen ein:
+365 148 112 182 126 52 116 192 96 52 500
+Trainingstag gespeichert.
+Bitte Funktion auswaehlen:
+1: Trainingstag erfassen
+2: Liste aller Trainingstage
+3: Programm beenden und Daten speichern
+Abbruch: 9
+Bitte Ziffer 1,2,3 oder 9 eingeben: 
+2
+Tag	Gewichte			Gesamtgewicht	Durchschnittsgewicht
+1 148 112 182 126 52 116 192 96 52 0 1076 192
+1 148 112 182 126 52 116 192 96 52 0 1076 192
+10 148 112 182 126 52 116 192 96 52 162 1238 192
+305 148 112 182 126 52 116 192 96 52 180 1256 192
+306 148 112 182 126 52 116 192 96 52 180 1256 192
+308 148 112 182 126 52 116 192 96 52 190 1266 192
+310 148 112 182 126 52 116 192 96 52 190 1266 192
+311 148 112 182 126 52 116 192 96 52 200 1276 200
+312 148 112 182 126 52 116 192 96 52 210 1286 210
+365 148 112 182 126 52 116 192 96 52 500 1576 500
+Anzahl Trainingstage: 10
+Durchschnittsgewicht aller Trainingstage: 225.4
+Max Durchschnittsgewicht: 500
+Min Durchschnittsgewicht: 192
+Tendenz aller Trainingstage +
+Bitte Funktion auswaehlen:
+1: Trainingstag erfassen
+2: Liste aller Trainingstage
+3: Programm beenden und Daten speichern
+Abbruch: 9
+Bitte Ziffer 1,2,3 oder 9 eingeben: 
+1
+Geben Sie bitte den Tag des Jahres und anschl. alle 10 Gewichte, jeweils getrennt durch ein Leerzeichen ein:
+1 148 112 182 126 52 116 192 96 52 -1
+Bitte geben Sie korrekte Daten ein.
+Bitte Funktion auswaehlen:
+1: Trainingstag erfassen
+2: Liste aller Trainingstage
+3: Programm beenden und Daten speichern
+Abbruch: 9
+Bitte Ziffer 1,2,3 oder 9 eingeben: 
+1
+Geben Sie bitte den Tag des Jahres und anschl. alle 10 Gewichte, jeweils getrennt durch ein Leerzeichen ein:
+365 148 112 182 126 52 116 192 96 52 501
+Bitte nur gueltige Gewichte eingeben.
+Bitte Funktion auswaehlen:
+1: Trainingstag erfassen
+2: Liste aller Trainingstage
+3: Programm beenden und Daten speichern
+Abbruch: 9
+Bitte Ziffer 1,2,3 oder 9 eingeben: 
+2
+Tag	Gewichte			Gesamtgewicht	Durchschnittsgewicht
+1 148 112 182 126 52 116 192 96 52 0 1076 192
+1 148 112 182 126 52 116 192 96 52 0 1076 192
+10 148 112 182 126 52 116 192 96 52 162 1238 192
+305 148 112 182 126 52 116 192 96 52 180 1256 192
+306 148 112 182 126 52 116 192 96 52 180 1256 192
+308 148 112 182 126 52 116 192 96 52 190 1266 192
+310 148 112 182 126 52 116 192 96 52 190 1266 192
+311 148 112 182 126 52 116 192 96 52 200 1276 200
+312 148 112 182 126 52 116 192 96 52 210 1286 210
+365 148 112 182 126 52 116 192 96 52 500 1576 500
+Anzahl Trainingstage: 10
+Durchschnittsgewicht aller Trainingstage: 225.4
+Max Durchschnittsgewicht: 500
+Min Durchschnittsgewicht: 192
+Tendenz aller Trainingstage +
+Bitte Funktion auswaehlen:
+1: Trainingstag erfassen
+2: Liste aller Trainingstage
+3: Programm beenden und Daten speichern
+Abbruch: 9
+Bitte Ziffer 1,2,3 oder 9 eingeben: 
+1
+Geben Sie bitte den Tag des Jahres und anschl. alle 10 Gewichte, jeweils getrennt durch ein Leerzeichen ein:
+0 148 112 182 126 52 116 192 96 52 0
+Bitte ein gueltigen Tag eingeben.
+Bitte Funktion auswaehlen:
+1: Trainingstag erfassen
+2: Liste aller Trainingstage
+3: Programm beenden und Daten speichern
+Abbruch: 9
+Bitte Ziffer 1,2,3 oder 9 eingeben: 
+1
+Geben Sie bitte den Tag des Jahres und anschl. alle 10 Gewichte, jeweils getrennt durch ein Leerzeichen ein:
+366 148 112 182 126 52 116 192 96 52 500
+Bitte ein gueltigen Tag eingeben.
+Bitte Funktion auswaehlen:
+1: Trainingstag erfassen
+2: Liste aller Trainingstage
+3: Programm beenden und Daten speichern
+Abbruch: 9
+Bitte Ziffer 1,2,3 oder 9 eingeben: 
+1
+Geben Sie bitte den Tag des Jahres und anschl. alle 10 Gewichte, jeweils getrennt durch ein Leerzeichen ein:
+1 148 112 182 126 52 116 192 96 52 3
+Bitte nur gueltige Gewichte eingeben.
+Bitte Funktion auswaehlen:
+1: Trainingstag erfassen
+2: Liste aller Trainingstage
+3: Programm beenden und Daten speichern
+Abbruch: 9
+Bitte Ziffer 1,2,3 oder 9 eingeben: 
+2
+Tag	Gewichte			Gesamtgewicht	Durchschnittsgewicht
+1 148 112 182 126 52 116 192 96 52 0 1076 192
+1 148 112 182 126 52 116 192 96 52 0 1076 192
+10 148 112 182 126 52 116 192 96 52 162 1238 192
+305 148 112 182 126 52 116 192 96 52 180 1256 192
+306 148 112 182 126 52 116 192 96 52 180 1256 192
+308 148 112 182 126 52 116 192 96 52 190 1266 192
+310 148 112 182 126 52 116 192 96 52 190 1266 192
+311 148 112 182 126 52 116 192 96 52 200 1276 200
+312 148 112 182 126 52 116 192 96 52 210 1286 210
+365 148 112 182 126 52 116 192 96 52 500 1576 500
+Anzahl Trainingstage: 10
+Durchschnittsgewicht aller Trainingstage: 225.4
+Max Durchschnittsgewicht: 500
+Min Durchschnittsgewicht: 192
+Tendenz aller Trainingstage +
+Bitte Funktion auswaehlen:
+1: Trainingstag erfassen
+2: Liste aller Trainingstage
+3: Programm beenden und Daten speichern
+Abbruch: 9
+Bitte Ziffer 1,2,3 oder 9 eingeben: 
+3
+Daten gespeichert.
+Programm wird beendet.
+BUILD SUCCESSFUL (total time: 3 minutes 7 seconds)
+	

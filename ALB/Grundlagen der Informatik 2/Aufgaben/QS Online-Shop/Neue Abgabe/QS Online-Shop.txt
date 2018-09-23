@@ -1,0 +1,9 @@
+QS Online-Shop Alice Bedow 29.12.15
+Die Klasse Bezahlung verfügt über keine starke Bindung.
+Sie enthält Informationen über eine Rechnung, über eine Kreditkarte und über eine Bank, wobei eine Rechnung optional ist, sowie entweder eine Kreditkarte oder eine Konto einer Bank verwendet würde, sodass
+ebenfalls einige überflüssige Informationen gespeichert werden würden.
+Rechnungen, Kreditkarten und Bankinformationen verfügen alle über die Attribute Gebühr und Name bzw. Rechnungsanschrift (beides als String gespeichert). 
+Daher werden diese in der Oberklasse Bezahlung zusammengefasst.
+Kreditkarten und Bankinformationen haben beide das Attribut Nummer.
+Deshalb wird dies in der Unterklasse Kreditkarte gespeichert, welche dieses Attribut zu Gebühr und Name ergänzt.
+Eine Bank hat zusätzlich das Attribut Blz daher wird dies ebenfalls in einer weiteren Unterklasse gespeichert.

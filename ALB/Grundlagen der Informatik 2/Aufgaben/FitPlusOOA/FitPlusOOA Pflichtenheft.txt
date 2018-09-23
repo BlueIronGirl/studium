@@ -1,0 +1,42 @@
+FitPlusOOA Alice Bedow 14.12.15
+Pflichtenheft
+
+Zielbestimmung
+Alle Mitarbeiter des Sportvereins FitPlus - i. Allg. ein Kassierer, ein Leiter einer Abteilung - soll mit dem Software-
+Programm die Mitglieder verwalten und derer Beitrag abrechnen können.
+
+Produktfunktionen
+/F10/ Ein Mitglied (aktiv oder passiv) muss erfasst werden können
+/F20/ Einem Mitglied muss eine Sportabteilung zugeordnet werden können
+/F30/ Alle Mitglieder müssen nach folgenden Sortierkriterien angezeigt werden können:
+Name, Alter, Sportabteilung, Beitragshöhe
+/F40/ Es muss ein Überblick über die jährlichen Einnahmen und eine
+Vorausschau über die kommenden 5 Jahre ausgegeben werden können.
+/F50/ Es soll eine Liste aller Abteilungsmitglieder ausgegeben werden können.
+
+Produktdaten
+/D10/ Daten für ein Mitglied (passiv und aktiv)
+Name, Alter, Sportabteilung(Tennis, Schwimmen, Golf), Jahresbeitrag(10% Erlass bei Ehepartner und 50% Erlass bei Kindern), Lastschrift, ZahlungAm
+/D20/ Daten für ein aktives Mitglied
+Rabatt (5% auf den Abteilungsbeitrag (pro Jahr) bzw. freie Zugehörigkeit einer Abteilung nach 20 Jahren), Sportabteilung, Eintrittabteilung
+/D30/ Daten für eine Sportabteilung
+Altersbegrenzung, Abteilungsbeitrag
+
+Benutzungsoberfläche
+/B10/ Lauffähig auf Handys und PDAs
+
+Glossar
+Mitglied: Person, die entweder passiv oder aktiv im Sportverein angemeldet ist.
+
+Passives Mitglied: ->Mitglied, das keiner ->Sportabteilung angehört.
+
+Aktives Mitglied: ->Mitglied, das mindestens einer ->Sportabteilung zugeordnet ist.
+
+Sportabteilung:  Zugehörige Sportart eines ->aktiven Mitgliedes, die diesem zugeordnet werden kann.
+
+Abteilungstyp: Mögliche ->Sportabteilungen sind: Tennis, Schwimmen, Golf
+
+Zugehörigkeit: Festlegung einer ->Sportabteilung sowie des Eintrittsdatums in diese.
+
+
+

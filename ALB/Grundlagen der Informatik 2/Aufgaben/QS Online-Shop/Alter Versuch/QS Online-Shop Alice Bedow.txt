@@ -1,0 +1,15 @@
+QS Online-Shop Alice Bedow 10.12.15
+-----------------------------------
+Ich, Alice Bedow, schlage in dem folgenden Text verschiedene Verbesserungen 
+für den Entwurf des QS Online-Shops vor.
+Die Klasse Bezahlung besitzt keine starke Bindung, da sie Attribute enthält, welche
+von anderen Attributen der Klasse abhängen und deshalb nicht immer gefüllt würden.
+Bei diesen Attributen handelt es sich um Attribute, die die Kreditdaten einer Bestellung betreffen, falls
+als Zahlungsart Kreditzahlung ausgewählt wird und welche ansonsten nicht gefüllt werden würden. Analog
+gilt dies für die Attribute, die eine Bankzahlung betreffen.
+Die Bankdaten sollten zusätzlich in 2 weitere Klassen unterteilt werden,
+da ansonsten verschiedene Banken pro Kontonummer redundant gespeichert werden würden.
+Daher fasse ich in meinem Entwurf in der Klasse Geldinstitut die Attribute blz und bank zusammen, welche eine bestimmte
+Bank betreffen und in der Klasse Bankdaten nur die kontonummer. In der Klasse Bankdaten sind also
+nur die Daten zu einem ganz bestimmten Konto einer bestimmten Bank gespeichert und es können weitere
+Informationen hinzugefügt werden.

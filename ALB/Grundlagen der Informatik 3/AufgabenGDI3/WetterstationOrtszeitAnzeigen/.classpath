@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="de/w3l/anw/wetterstation/applikation/OrtMitDeltaT.java|de/w3l/anw/wetterstation/applikation/OrtOhneDeltaT.java|de/w3l/anw/wetterstation/gui/WetterGUIOhneLokalzeit.java|de/w3l/anw/wetterstation/gui/WetterGUIOrg.java|de/w3l/anw/wetterstation/gui/DigitaluhrNeuMitZeitzone.java|de/w3l/anw/wetterstation/gui/DigitaluhrOhneZeitzone.java|de/w3l/anw/wetterstation/gui/DigitaluhrOrg.java|de/w3l/anw/wetterstation/gui/WetterGUIMitLokalzeiz.java" kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

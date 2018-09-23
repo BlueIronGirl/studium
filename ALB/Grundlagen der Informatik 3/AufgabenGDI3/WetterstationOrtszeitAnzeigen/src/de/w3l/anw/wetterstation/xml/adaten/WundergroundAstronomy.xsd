@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified"
+           elementFormDefault="qualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element type="xs:float"
+                            name="version"/>
+                <xs:element type="xs:anyURI"
+                            name="termsofService"/>
+                <xs:element name="features">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:string"
+                                        name="feature"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="moon_phase">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:byte"
+                                        name="percentIlluminated"/>
+                            <xs:element type="xs:byte"
+                                        name="ageOfMoon"/>
+                            <xs:element name="current_time">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:byte"
+                                                    name="hour"/>
+                                        <xs:element type="xs:byte"
+                                                    name="minute"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="sunset">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:byte"
+                                                    name="hour"/>
+                                        <xs:element type="xs:byte"
+                                                    name="minute"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="sunrise">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:byte"
+                                                    name="hour"/>
+                                        <xs:element type="xs:byte"
+                                                    name="minute"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="sun_phase">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="sunset">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:byte"
+                                                    name="hour"/>
+                                        <xs:element type="xs:byte"
+                                                    name="minute"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="sunrise">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:byte"
+                                                    name="hour"/>
+                                        <xs:element type="xs:byte"
+                                                    name="minute"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

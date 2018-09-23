@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1447842504 source:d:\java 5.0\w3l\c codeblocks\stringumkehrinc\main.c
+	<stdio.h>
+	<stdlib.h>
+	"stringumkehr.h"
+
+1447841911 d:\java 5.0\w3l\c codeblocks\stringumkehrinc\stringumkehr.h
+
+1447842460 source:d:\java 5.0\w3l\c codeblocks\stringumkehrinc\stringumkehr.c
+	<stdio.h>
+	"stringumkehr.h"
+

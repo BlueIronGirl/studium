@@ -1,0 +1,4 @@
+1. Programm mit Dev C++ - Alice Bedow 17.12.15
+Schritt 1: test.dev
+Schritt 2: main.cpp test.layout
+Schritt 3: main.o Makefile.win test.exe

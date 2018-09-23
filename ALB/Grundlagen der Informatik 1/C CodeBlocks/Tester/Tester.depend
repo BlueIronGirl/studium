@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1448540616 source:d:\java 5.0\w3l\c codeblocks\tester\main.c
+	<stdio.h>
+	<stdlib.h>
+	"test.h"
+
+1448540300 d:\java 5.0\w3l\c codeblocks\tester\test.h
+
+1448540582 source:d:\java 5.0\w3l\c codeblocks\tester\test.c
+	<stdio.h>
+	"test.h"
+

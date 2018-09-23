@@ -1,0 +1,386 @@
+Summenberechnung testen Alice Bedow
+Aufgabe a
+Code
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package summenberechnungtesten;
+import inout.FileIO;
+/* Sekunde in Stunden, Minuten, Sekunden aufteilen
+* author: Alice Bedow
+* date: 08.11.2015
+* A = 1 * 1000 + B = 2 = 1002
+*/
+public class SummenberechnungTesten {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        int wert,stunden,minuten,sekunden;
+        FileIO.openInFile("bed1ein.txt");
+        FileIO.openOutFile("bed1aus.txt");
+        int laenge = FileIO.readIntFromFile();
+        System.out.println("Anzahl Testdaten: "+laenge);
+        FileIO.out("Anzahl Testfaelle: "+laenge);
+        for(int i=0;i<laenge;i++)
+        {
+            wert = FileIO.readIntFromFile();
+            FileIO.out("Testfall " + i + " Wert Stunden Minuten Sekunden");
+            FileIO.out(wert);
+            System.out.println("Testfall "+i);
+            System.out.println("Eingelesener Wert: "+wert);
+            stunden = wert / 3600;
+            wert -= stunden * 3600;
+            minuten = wert / 60;
+            wert -= minuten * 60;
+            sekunden = wert;
+            System.out.println("Stunden: "+stunden);
+            System.out.println("Minuten: "+minuten);
+            System.out.println("Sekunden: "+sekunden);
+            FileIO.out(stunden);
+            FileIO.out(minuten);
+            FileIO.out(sekunden);
+        } 
+        FileIO.closeInFile();
+        FileIO.closeOutFile();
+        
+    }    
+}
+
+
+bed1ein.txt
+1
+1002
+
+Ausgabe Konsole
+Anzahl Testfaelle: 1
+Testfall 1
+Eingelesener Wert: 1002
+Stunden: 0
+Minuten: 16
+Sekunden: 42
+
+Ausgabe bed1aus.txt
+Anzahl Testfaelle: 1
+Testfall 1 Wert Stunden Minuten Sekunden
+1002
+0
+16
+42
+______________________________________________________________________________________________________________________________________
+Aufgabe b
+Code
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package summenberechnungtesten;
+import inout.FileIO;
+/**
+ *
+ * @author Alice
+ */
+public class SummenberechnungTestenDouble {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        double wert,stunden,minuten,sekunden;
+        FileIO.openInFile("bed1ein.txt");
+        FileIO.openOutFile("bed2aus.txt");
+        int laenge = FileIO.readIntFromFile();
+        System.out.println("Anzahl Testfaelle: "+laenge);
+        FileIO.out("Anzahl Testfaelle: "+laenge);
+        for(int i=0;i<laenge;i++)
+        {
+            wert = FileIO.readIntFromFile();
+            FileIO.out("Testfall " + i + " Wert Stunden Minuten Sekunden");
+            FileIO.out(wert);
+            System.out.println("Testfall "+i);
+            System.out.println("Eingelesener Wert: "+wert);
+            stunden = wert / 3600;
+            wert -= stunden * 3600;
+            minuten = wert / 60;
+            wert -= minuten * 60;
+            sekunden = wert;
+            System.out.println("Stunden: "+stunden);
+            System.out.println("Minuten: "+minuten);
+            System.out.println("Sekunden: "+sekunden);
+            FileIO.out(stunden);
+            FileIO.out(minuten);
+            FileIO.out(sekunden);
+        } 
+        FileIO.closeInFile();
+        FileIO.closeOutFile();
+        
+    }       
+}
+
+bed1ein.txt
+1
+1002
+
+Ausgabe Konsole
+Anzahl Testfaelle: 1
+Testfall 1
+Eingelesener Wert: 1002.0
+Stunden: 0.2783333333333333
+Minuten: 0.0
+Sekunden: 0.0
+
+Ausgabe bed2aus.txt
+Anzahl Testfaelle: 1
+Testfall 1 Wert Stunden Minuten Sekunden
+1002.0
+0.2783333333333333
+0.0
+0.0
+______________________________________________________________________________________________________________________________________
+Aufgabe c
+Testwert			Begründung
+0					Spezieller Wert
+3600				Spezieller Wert (genau 1 Stunde)
+60					Spezieller Wert (genau 1 Minute)
+1					Spezieller Wert (genau 1 Sekunde)
+5600				Repräsentativer Wert (Stunden, Minuten und Sekunden)
+-5600				Repräsentativer Wert (Stunden, Minuten und Sekunden)
+1002				Repräsentativer Wert (nur Minuten und Sekunden)
+55					Repräsentativer Wert (nur Sekunden)
+3_000_000_000		Extremwert (nicht mehr im Wertebereich des Datentyps Integer)
+-3_000_000_000		Extremwert (nicht mehr im Wertebereich des Datentyps Integer)
+
+Ausgabe Konsole SummenberechnungTesten
+
+Anzahl Testdaten: 10
+Testfall 0
+Eingelesener Wert: 0
+Stunden: 0
+Minuten: 0
+Sekunden: 0
+Testfall 1
+Eingelesener Wert: 3600
+Stunden: 1
+Minuten: 0
+Sekunden: 0
+Testfall 2
+Eingelesener Wert: 60
+Stunden: 0
+Minuten: 1
+Sekunden: 0
+Testfall 3
+Eingelesener Wert: 1
+Stunden: 0
+Minuten: 0
+Sekunden: 1
+Testfall 4
+Eingelesener Wert: 5600
+Stunden: 1
+Minuten: 33
+Sekunden: 20
+Testfall 5
+Eingelesener Wert: -5600
+Stunden: -1
+Minuten: -33
+Sekunden: -20
+Testfall 6
+Eingelesener Wert: 1002
+Stunden: 0
+Minuten: 16
+Sekunden: 42
+Testfall 7
+Eingelesener Wert: 55
+Stunden: 0
+Minuten: 0
+Sekunden: 55
+"For input string: "3_000_000_000"" ist keine Zahl
+Java Result: 1
+
+Ausgabe bed1aus.txt
+Anzahl Testfaelle: 10
+Testfall 0 Wert Stunden Minuten Sekunden
+0
+0
+0
+0
+Testfall 1 Wert Stunden Minuten Sekunden
+3600
+1
+0
+0
+Testfall 2 Wert Stunden Minuten Sekunden
+60
+0
+1
+0
+Testfall 3 Wert Stunden Minuten Sekunden
+1
+0
+0
+1
+Testfall 4 Wert Stunden Minuten Sekunden
+5600
+1
+33
+20
+Testfall 5 Wert Stunden Minuten Sekunden
+-5600
+-1
+-33
+-20
+Testfall 6 Wert Stunden Minuten Sekunden
+1002
+0
+16
+42
+Testfall 7 Wert Stunden Minuten Sekunden
+55
+0
+0
+55
+
+Ausgabe Konsole SummenberechnungTestenDouble
+Anzahl Testfaelle: 10
+Testfall 0
+Eingelesener Wert: 0.0
+Stunden: 0.0
+Minuten: 0.0
+Sekunden: 0.0
+Testfall 1
+Eingelesener Wert: 3600.0
+Stunden: 1.0
+Minuten: 0.0
+Sekunden: 0.0
+Testfall 2
+Eingelesener Wert: 60.0
+Stunden: 0.016666666666666666
+Minuten: 0.0
+Sekunden: 0.0
+Testfall 3
+Eingelesener Wert: 1.0
+Stunden: 2.777777777777778E-4
+Minuten: 0.0
+Sekunden: 0.0
+Testfall 4
+Eingelesener Wert: 5600.0
+Stunden: 1.5555555555555556
+Minuten: 0.0
+Sekunden: 0.0
+Testfall 5
+Eingelesener Wert: -5600.0
+Stunden: -1.5555555555555556
+Minuten: 0.0
+Sekunden: 0.0
+Testfall 6
+Eingelesener Wert: 1002.0
+Stunden: 0.2783333333333333
+Minuten: 0.0
+Sekunden: 0.0
+Testfall 7
+Eingelesener Wert: 55.0
+Stunden: 0.015277777777777777
+Minuten: 0.0
+Sekunden: 0.0
+"For input string: "3_000_000_000"" ist keine Zahl
+Java Result: 1
+
+Ausgabe bed2aus.txt
+Anzahl Testfaelle: 10
+Testfall 0 Wert Stunden Minuten Sekunden
+0.0
+0.0
+0.0
+0.0
+Testfall 1 Wert Stunden Minuten Sekunden
+3600.0
+1.0
+0.0
+0.0
+Testfall 2 Wert Stunden Minuten Sekunden
+60.0
+0.016666666666666666
+0.0
+0.0
+Testfall 3 Wert Stunden Minuten Sekunden
+1.0
+2.777777777777778E-4
+0.0
+0.0
+Testfall 4 Wert Stunden Minuten Sekunden
+5600.0
+1.5555555555555556
+0.0
+0.0
+Testfall 5 Wert Stunden Minuten Sekunden
+-5600.0
+-1.5555555555555556
+0.0
+0.0
+Testfall 6 Wert Stunden Minuten Sekunden
+1002.0
+0.2783333333333333
+0.0
+0.0
+Testfall 7 Wert Stunden Minuten Sekunden
+55.0
+0.015277777777777777
+0.0
+0.0
+
+Aufgabe d
+bed1aus.txt		bed2aus.txt
+Testfall 0
+0				0
+0				0
+0				0
+0				0
+Testfall 1
+3600			3600
+1				1
+0				0
+0				0
+Testfall 2
+60				60.0
+0				0.016666666666666666
+1				0
+0				0
+Testfall 3
+1				1.0
+0				2.777777777777778E-4		
+0				0.0
+1				0.0
+Testfall 4
+5600			5600.0
+1				1.5555555555555556
+33				0.0
+20				0.0
+Testfall 5
+-5600			-5600.0
+-1				-1.5555555555555556
+-33				0.0
+-20				0.0
+Testfall 6
+1002			1002.0
+0				0.2783333333333333
+16				0.0
+42				0.0
+Testfall 7
+55				55.0
+0				0.015277777777777777
+0				0.0
+55				0.0
+
+Aufgabe e
+Bei manchen speziellen Wert (0 und 3600) liefern beide Programme die gleichen Ergebnisse. Also bei allen Ergebnisse, die restlos durch
+3600 teilbar sind und daher bei beiden Programmen nur Werte in der Stunden-Variable gespeichert werden.
+Für alle anderen Werte liefern beide Programme unterschiedliche Ergebnisse, daher ist das Programm SummenberechnungTestenDouble kein sinnvoller
+Ersatz für das Programm SummenberechnungTesten.
+
+
+

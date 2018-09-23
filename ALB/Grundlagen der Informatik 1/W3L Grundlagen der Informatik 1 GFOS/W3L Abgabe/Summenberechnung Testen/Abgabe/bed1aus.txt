@@ -1,0 +1,82 @@
+Anzahl Testfaelle: 10
+Testfall 0 Wert Stunden Minuten Sekunden
+0
+0
+0
+0
+Testfall 1 Wert Stunden Minuten Sekunden
+3600
+1
+0
+0
+Testfall 2 Wert Stunden Minuten Sekunden
+60
+0
+1
+0
+Testfall 3 Wert Stunden Minuten Sekunden
+1
+0
+0
+1
+Testfall 4 Wert Stunden Minuten Sekunden
+5600
+1
+33
+20
+Testfall 5 Wert Stunden Minuten Sekunden
+-5600
+-1
+-33
+-20
+Testfall 6 Wert Stunden Minuten Sekunden
+1002
+0
+16
+42
+Testfall 7 Wert Stunden Minuten Sekunden
+55
+0
+0
+55
+Anzahl Testfaelle: 10
+Testfall 0 Wert Stunden Minuten Sekunden
+0
+0
+0
+0
+Testfall 1 Wert Stunden Minuten Sekunden
+3600
+1
+0
+0
+Testfall 2 Wert Stunden Minuten Sekunden
+60
+0
+1
+0
+Testfall 3 Wert Stunden Minuten Sekunden
+1
+0
+0
+1
+Testfall 4 Wert Stunden Minuten Sekunden
+5600
+1
+33
+20
+Testfall 5 Wert Stunden Minuten Sekunden
+-5600
+-1
+-33
+-20
+Testfall 6 Wert Stunden Minuten Sekunden
+1002
+0
+16
+42
+Testfall 7 Wert Stunden Minuten Sekunden
+55
+0
+0
+55
