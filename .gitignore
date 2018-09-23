@@ -1,6 +1,10 @@
 .idea
 *.iml
+*.zip
+*.class
+
+#Ordner
 javadoc
 out
-*.class
 Tests
+Beispiele
